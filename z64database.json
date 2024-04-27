@@ -1,1 +1,67 @@
-[{"game":"Breath of the Wild","song":"Hyrule Field","type":"bgm","composers":"","converters":"","preview":"","categories":"HyruleField,LostWoods,GerudoValley,Fields,Outdoors,Overworld,InsideDekuTree,DodongosCavern,JabuJabu,ForestTemple,IceCavern,FireTemple,WaterTemple,SpiritTemple,ShadowTemple,CastleUnderground,CastleEscape,ChildDungeon,AncientDungeon,MysticalDungeon,SpookyDungeon,AdultDungeon,Dungeon\r","usesCustomBank":false,"usesCustomSamples":false,"uuid":"8d88b9c1-b16a-4f56-8bfe-4f51e674780a","file":"Breath of the Wild/Hyrule Field.ootrs"},{"game":"A Hat in Time","song":"City of Calcite","type":"bgm","composers":"","converters":"","preview":"","categories":"1","usesCustomBank":false,"usesCustomSamples":false,"uuid":"c3d33eaa-e631-4bf9-8f88-cbadccdfa134","file":"A Hat in Time/City of Calcite.mmrs"},{"game":"Dragon Quest III","song":"Adventure","type":"bgm","composers":"Koichi Sugiyama","converters":"Tolin","preview":"https://cdn.discordapp.com/attachments/750479351736434828/1205717713654259743/Dragon_Quest_III_-_Adventure.mp3?ex=662d1a60&is=662bc8e0&hm=21bfc8df86dd3d47f84bf569c652f2e96ca2a8a9e0f21fe4541f29bc3ca89f6f&","categories":"HyruleField,Fields,Outdoors,Overworld","usesCustomBank":false,"usesCustomSamples":false,"uuid":"59c3a5c0-2289-483c-8b58-cd228931a96d","file":"Dragon Quest III/Adventure.ootrs"},{"game":"The Sims","song":"Mall Rat","type":"bgm","composers":"Jerry Martin","converters":"Tolin","preview":"https://cdn.discordapp.com/attachments/750479351736434828/1196462458601222195/The_Sims_-_Mall_Rat.mp3?ex=662d0cff&is=662bbb7f&hm=6bae11424ff5e64765ce95c8a775b5e11162ea7145015ed7a829db8d66c9086a&","categories":"Shop,FairyFountain,SalesArea,MagicalPlace,Indoors,Overworld\r","usesCustomBank":false,"usesCustomSamples":false,"uuid":"67d1969f-7340-4cb5-8193-398c35d16176","file":"The Sims/Mall Rat.ootrs"}]
+[
+  {
+    "game": "Breath of the Wild",
+    "song": "Hyrule Field",
+    "type": "bgm",
+    "composers": "",
+    "converters": "",
+    "preview": "",
+    "categories": "HyruleField,LostWoods,GerudoValley,Fields,Outdoors,Overworld,InsideDekuTree,DodongosCavern,JabuJabu,ForestTemple,IceCavern,FireTemple,WaterTemple,SpiritTemple,ShadowTemple,CastleUnderground,CastleEscape,ChildDungeon,AncientDungeon,MysticalDungeon,SpookyDungeon,AdultDungeon,Dungeon\r",
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "8d88b9c1-b16a-4f56-8bfe-4f51e674780a",
+    "file": "Breath of the Wild/Hyrule Field.ootrs"
+  },
+  {
+    "game": "A Hat in Time",
+    "song": "City of Calcite",
+    "type": "bgm",
+    "composers": "",
+    "converters": "",
+    "preview": "",
+    "categories": "1",
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "c3d33eaa-e631-4bf9-8f88-cbadccdfa134",
+    "file": "A Hat in Time/City of Calcite.mmrs"
+  },
+  {
+    "game": "Dragon Quest III",
+    "song": "Adventure",
+    "type": "bgm",
+    "composers": "Koichi Sugiyama",
+    "converters": "Tolin",
+    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1205717713654259743/Dragon_Quest_III_-_Adventure.mp3?ex=662d1a60&is=662bc8e0&hm=21bfc8df86dd3d47f84bf569c652f2e96ca2a8a9e0f21fe4541f29bc3ca89f6f&",
+    "categories": "HyruleField,Fields,Outdoors,Overworld",
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "59c3a5c0-2289-483c-8b58-cd228931a96d",
+    "file": "Dragon Quest III/Adventure.ootrs"
+  },
+  {
+    "game": "The Sims",
+    "song": "Mall Rat",
+    "type": "bgm",
+    "composers": "Jerry Martin",
+    "converters": "Tolin",
+    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1196462458601222195/The_Sims_-_Mall_Rat.mp3?ex=662d0cff&is=662bbb7f&hm=6bae11424ff5e64765ce95c8a775b5e11162ea7145015ed7a829db8d66c9086a&",
+    "categories": "Shop,FairyFountain,SalesArea,MagicalPlace,Indoors,Overworld\r",
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "67d1969f-7340-4cb5-8193-398c35d16176",
+    "file": "The Sims/Mall Rat.ootrs"
+  },
+  {
+    "game": "Mario Kart 8 Deluxe",
+    "song": "Choco Mountain",
+    "type": "bgm",
+    "composers": "Kenta Nagata",
+    "converters": "Tolin",
+    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1169810569654702132/Mario_Kart_8_Deluxe_-_Choco_Mountain.mp3?ex=662cfdbd&is=662bac3d&hm=08bdaefe3c82ee7df1822b666c427c9e652831f8b52a5e26845c35b532c0a1a3&",
+    "categories": "Mini-game,HorseRace,ShootingGallery,Fun,Outdoors,Indoors,Overworld",
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "50fdfedb-9ed8-4811-ba62-70a3347910a1",
+    "file": "Mario Kart 8 Deluxe/Choco Mountain.ootrs"
+  }
+]
