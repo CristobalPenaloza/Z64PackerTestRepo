@@ -63,5 +63,18 @@
     "usesCustomSamples": false,
     "uuid": "50fdfedb-9ed8-4811-ba62-70a3347910a1",
     "file": "Mario Kart 8 Deluxe/Choco Mountain.ootrs"
+  },
+  {
+    "game": "Breath of the Wild",
+    "song": "Mipha's Theme",
+    "type": "bgm",
+    "composers": "",
+    "converters": "",
+    "preview": "s",
+    "categories": "ZorasDomain,TitleTheme,FairyFountain,ZeldaTheme,SheikTheme,MagicalPlace,HeroTheme,Indoors,CharacterTheme",
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "ebfabfe1-52ca-4788-a215-9b4ae588cead",
+    "file": "Breath of the Wild/Mipha's Theme.ootrs"
   }
 ]
