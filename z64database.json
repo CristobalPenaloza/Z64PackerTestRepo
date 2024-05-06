@@ -1,11 +1,11 @@
 [
   {
-    "game": "Breath of the Wild",
-    "song": "Hyrule Field",
+    "game": "The Legend of Zelda Breath of the Wild",
+    "song": "Hyrule Castle",
     "type": "bgm",
     "composers": "",
     "converters": "",
-    "preview": "",
+    "preview": "https://www.youtube.com/watch?v=J-I6td_UvWY&ab_channel=Darunia%27sJoy",
     "categories": "HyruleField,LostWoods,GerudoValley,Fields,Outdoors,Overworld,InsideDekuTree,DodongosCavern,JabuJabu,ForestTemple,IceCavern,FireTemple,WaterTemple,SpiritTemple,ShadowTemple,CastleUnderground,CastleEscape,ChildDungeon,AncientDungeon,MysticalDungeon,SpookyDungeon,AdultDungeon,Dungeon\r",
     "usesCustomBank": false,
     "usesCustomSamples": false,
@@ -65,12 +65,12 @@
     "file": "Mario Kart 8 Deluxe/Choco Mountain.ootrs"
   },
   {
-    "game": "Breath of the Wild",
+    "game": "The Legend of Zelda Breath of the Wild",
     "song": "Mipha's Theme",
     "type": "bgm",
     "composers": "",
     "converters": "",
-    "preview": "s",
+    "preview": "https://youtu.be/X93ni_UNbb8?si=AJNOyPwKjMXPXqgm",
     "categories": "ZorasDomain,TitleTheme,FairyFountain,ZeldaTheme,SheikTheme,MagicalPlace,HeroTheme,Indoors,CharacterTheme",
     "usesCustomBank": false,
     "usesCustomSamples": false,
