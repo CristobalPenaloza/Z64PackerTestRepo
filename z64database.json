@@ -76,5 +76,24 @@
     "usesCustomSamples": false,
     "uuid": "ebfabfe1-52ca-4788-a215-9b4ae588cead",
     "file": "Breath of the Wild/Mipha's Theme.ootrs"
+  },
+  {
+    "game": "The Legend of Zelda Breath of the Wild",
+    "song": "Sit by the campfire",
+    "type": "fanfare",
+    "composers": [
+      "Manaka Kataoka",
+      "Yasuaki Iwata",
+      "Hajime Wakai"
+    ],
+    "converters": [
+      "Unknown"
+    ],
+    "preview": "https://www.youtube.com/watch?v=Pf59WgP7XUM&ab_channel=Darunia%27sJoy",
+    "categories": [],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "28e13df1-f2c1-4d9f-b495-4a16f1b50b7a",
+    "file": "The Legend of Zelda Breath of the Wild/Sit by the campfire.ootrs"
   }
 ]
