@@ -92,7 +92,7 @@ def main():
     if result: print("Process completed succesfully!")
     else: print("An error occured")
     
-    input("Press enter to quit.")
+    #input("Press enter to quit.")
 
 
 if __name__ == '__main__':
