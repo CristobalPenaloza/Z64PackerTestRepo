@@ -3,8 +3,6 @@ name: Z64 Workflow - Missing Song Detector
 on:
   push:
     branches: [ "main" ] # Add here branches of your repo on which you want this script to trigger
-  pull_request:
-    branches: [ "main" ] # Add here branches of your repo on which you want this script to trigger
 
 jobs:
   build:
@@ -29,5 +27,5 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "<>"
           git add -A
-          git commit -m "commit message"
+          git commit -m "Run Z64 Workflow - Missing Song Detector"
           git push
