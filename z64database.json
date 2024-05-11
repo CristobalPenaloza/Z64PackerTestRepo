@@ -209,5 +209,39 @@
     "usesCustomSamples": false,
     "uuid": "f57f177a-352e-4b68-a68e-13377742d57a",
     "file": "Bloodborne/Cleric Beast.ootrs"
+  },
+  {
+    "game": "Bloodborne",
+    "song": "Ludwig The Holy Blade",
+    "type": "bgm",
+    "composers": [
+      "Ryan Amon",
+      "Tsukasa Saitoh",
+      "Michael Wandmacher",
+      "Yuka Kitamura",
+      "Cris Velasco",
+      "Nobuyoshi Suzuki"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=j-olj44TtdA&ab_channel=Darunia%27sJoy",
+    "categories": [
+      "BossBattle",
+      "FireBoss",
+      "GanondorfBattle",
+      "GanonBattle",
+      "GanondorfTheme",
+      "KotakeAndKoume",
+      "BossFight",
+      "FinalFight",
+      "VillainTheme",
+      "BigFight",
+      "Fight"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "65d098c2-77cc-4893-930f-ae27a3bd5fa6",
+    "file": "Bloodborne/Ludwig The Holy Blade.ootrs"
   }
 ]
