@@ -243,5 +243,67 @@
     "usesCustomSamples": false,
     "uuid": "65d098c2-77cc-4893-930f-ae27a3bd5fa6",
     "file": "Bloodborne/Ludwig The Holy Blade.ootrs"
+  },
+  {
+    "game": "Animal Crossing New Horizons",
+    "song": "6PM",
+    "type": "bgm",
+    "composers": [
+      "Unknown"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=8CuDy5zHdv4&ab_channel=Darunia%27sJoy",
+    "categories": [
+      "Market",
+      "KakarikoChild",
+      "KakarikoAdult",
+      "LonLonRanch",
+      "KokiriForest",
+      "GoronCity",
+      "ZorasDomain",
+      "CastleCourtyard",
+      "House",
+      "TitleTheme",
+      "SheikTheme",
+      "DekuTree",
+      "ZeldaTheme",
+      "KaeporaGaebora",
+      "Town",
+      "HeroTheme",
+      "Outdoors",
+      "Indoors",
+      "Overworld"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "955d7005-17b4-4b2a-9c98-f50be0b97e39",
+    "file": "Animal Crossing New Horizons/6PM.ootrs"
+  },
+  {
+    "game": "Animal Crossing",
+    "song": "Comrade K.K. (Aircheck)",
+    "type": "bgm",
+    "composers": [
+      "Unknown"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=oIPxCYed9u4&ab_channel=Darunia%27sJoy",
+    "categories": [
+      "KotakeAndKoume",
+      "Battle",
+      "MinibossBattle",
+      "IngoTheme",
+      "SmallFight",
+      "VillainTheme",
+      "CharacterTheme"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "dc31fd0a-b18f-4b2c-836b-6ecba7dd0405",
+    "file": "Animal Crossing/Comrade K.K. (Aircheck).ootrs"
   }
 ]
