@@ -24,35 +24,38 @@ def detectSongs():
                     directory = dirpath.replace(properties['binaries'], '')
 
                     for filename in filenames:
-                        # Only check ootrs and mmrs files
-                        if not filename.endswith('.ootrs') and not filename.endswith('.mmrs'): continue
-                        
-                        # Add this file to the main zip
-                        osPath = os.path.join(dirpath, filename)
-                        print('Repacking file: ' + osPath)
-                        binariesZip.write(osPath)
-
-                        # Check if the file is in the database
-                        fullPath = os.path.join(directory, filename).replace("\\","/") 
-                        detectedInDatabase = any(x["file"] == fullPath for x in database)
-                        if detectedInDatabase: continue # <-- TODO: Re-add categories, usescustombank and usescustomsamples, for consistency
-
-                        # Extract data from the file
-                        isOOTRS = filename.endswith('.ootrs')
-                        type, categories, usesCustomBank, usesCustomSamples = extractMetadataFromOOTRS(os.path.join(dirpath, filename))
-                        
-                        # If is not there, add it!
-                        print('Adding missing file: ' + fullPath)
-                        database.append({
-                            'game': directory.replace("\\","/").split('/')[-1],
-                            'song': filename.replace('.ootrs', ''),
-                            'type': type,
-                            'categories': categories,
-                            'usesCustomBank': usesCustomBank,
-                            'usesCustomSamples': usesCustomSamples,
-                            'uuid': str(uuid.uuid4()),
-                            'file': fullPath
-                        })
+                        try:
+                            # Only check ootrs and mmrs files
+                            if not filename.endswith('.ootrs') and not filename.endswith('.mmrs'): continue
+                            
+                            # Add this file to the main zip
+                            osPath = os.path.join(dirpath, filename)
+                            print('Repacking file: ' + osPath)
+                            binariesZip.write(osPath)
+    
+                            # Check if the file is in the database
+                            fullPath = os.path.join(directory, filename).replace("\\","/") 
+                            detectedInDatabase = any(x["file"] == fullPath for x in database)
+                            if detectedInDatabase: continue # <-- TODO: Re-add categories, usescustombank and usescustomsamples, for consistency
+    
+                            # Extract data from the file
+                            isOOTRS = filename.endswith('.ootrs')
+                            type, categories, usesCustomBank, usesCustomSamples = extractMetadataFromOOTRS(os.path.join(dirpath, filename))
+                            
+                            # If is not there, add it!
+                            print('Adding missing file: ' + fullPath)
+                            database.append({
+                                'game': directory.replace("\\","/").split('/')[-1],
+                                'song': filename.replace('.ootrs', ''),
+                                'type': type,
+                                'categories': categories,
+                                'usesCustomBank': usesCustomBank,
+                                'usesCustomSamples': usesCustomSamples,
+                                'uuid': str(uuid.uuid4()),
+                                'file': fullPath
+                            })
+                        except:
+                            print("An error ocurred while processing the file " + filename)
 
                 # Replace database with this one
                 databaseFile.seek(0)
