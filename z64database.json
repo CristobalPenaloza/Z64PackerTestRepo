@@ -175,5 +175,39 @@
     "usesCustomSamples": false,
     "uuid": "568b20b1-6062-4992-b0f1-726f199dfc54",
     "file": "testtest/test1.ootrs"
+  },
+  {
+    "game": "Bloodborne",
+    "song": "Cleric Beast",
+    "type": "bgm",
+    "composers": [
+      "Ryan Amon",
+      "Tsukasa Saitoh",
+      "Michael Wandmacher",
+      "Yuka Kitamura",
+      "Cris Velasco",
+      "Nobuyoshi Suzuki"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=dPbUUyNb-HI&ab_channel=Darunia%27sJoy",
+    "categories": [
+      "BossBattle",
+      "FireBoss",
+      "GanondorfBattle",
+      "GanonBattle",
+      "GanondorfTheme",
+      "KotakeAndKoume",
+      "BossFight",
+      "FinalFight",
+      "VillainTheme",
+      "BigFight",
+      "Fight"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "f57f177a-352e-4b68-a68e-13377742d57a",
+    "file": "Bloodborne/Cleric Beast.ootrs"
   }
 ]
