@@ -305,5 +305,62 @@
     "usesCustomSamples": false,
     "uuid": "dc31fd0a-b18f-4b2c-836b-6ecba7dd0405",
     "file": "Animal Crossing/Comrade K.K. (Aircheck).ootrs"
+  },
+  {
+    "game": "Banjo-Kazooie",
+    "song": "Battle With Gruntilda",
+    "type": "bgm",
+    "composers": [
+      "Grant Kirkhope"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=n3MXIGwV7fg&ab_channel=Darunia%27sJoy",
+    "categories": [
+      "BossBattle",
+      "FireBoss",
+      "GanondorfBattle",
+      "GanonBattle",
+      "BossFight",
+      "FinalFight",
+      "BigFight",
+      "Fight"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "590b9d22-6faf-409b-b248-f220dd509271",
+    "file": "Banjo-Kazooie/Battle With Gruntilda.ootrs"
+  },
+  {
+    "game": "Banjo-Kazooie",
+    "song": "Bubblegoop Swamp",
+    "type": "bgm",
+    "composers": [
+      "Grant Kirkhope"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=DLdCklDGnUA&ab_channel=Darunia%27sJoy",
+    "categories": [
+      "LostWoods",
+      "KokiriForest",
+      "GoronCity",
+      "ZorasDomain",
+      "ShootingGallery",
+      "InsideDekuTree",
+      "ForestTemple",
+      "Town",
+      "Fun",
+      "ChildDungeon",
+      "Outdoors",
+      "Indoors",
+      "Overworld"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "1927b26c-5adf-49b7-a326-cac13d858234",
+    "file": "Banjo-Kazooie/Bubblegoop Swamp.ootrs"
   }
 ]
