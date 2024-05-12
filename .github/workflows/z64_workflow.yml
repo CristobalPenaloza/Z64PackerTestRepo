@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    #if: github.repository == 'CristobalPenaloza/Z64PackerTestRepo'
+    if: github.repository == 'CristobalPenaloza/Z64PackerTestRepo'
     runs-on: ubuntu-latest
     strategy:
       matrix:
