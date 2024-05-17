@@ -1,10 +1,14 @@
 [
   {
     "game": "The Legend of Zelda Breath of the Wild",
-    "song": "Hyrule Castle",
+    "song": "Hyrule Castle 2",
     "type": "bgm",
-    "composers": "",
-    "converters": "",
+    "composers": [
+      "Koji Kondo"
+    ],
+    "converters": [
+      "Tolin"
+    ],
     "preview": "https://www.youtube.com/watch?v=J-I6td_UvWY&ab_channel=Darunia%27sJoy",
     "categories": "HyruleField,LostWoods,GerudoValley,Fields,Outdoors,Overworld,InsideDekuTree,DodongosCavern,JabuJabu,ForestTemple,IceCavern,FireTemple,WaterTemple,SpiritTemple,ShadowTemple,CastleUnderground,CastleEscape,ChildDungeon,AncientDungeon,MysticalDungeon,SpookyDungeon,AdultDungeon,Dungeon\r",
     "usesCustomBank": false,
