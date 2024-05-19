@@ -368,5 +368,39 @@
     "usesCustomSamples": false,
     "uuid": "1927b26c-5adf-49b7-a326-cac13d858234",
     "file": "Banjo-Kazooie/Bubblegoop Swamp.ootrs"
+  },
+  {
+    "game": "Breath of the Wild",
+    "song": "Hyrule Field",
+    "type": "Bgm",
+    "categories": [
+      "HyruleField",
+      "LostWoods",
+      "GerudoValley",
+      "Fields",
+      "Outdoors",
+      "Overworld",
+      "InsideDekuTree",
+      "DodongosCavern",
+      "JabuJabu",
+      "ForestTemple",
+      "IceCavern",
+      "FireTemple",
+      "WaterTemple",
+      "SpiritTemple",
+      "ShadowTemple",
+      "CastleUnderground",
+      "CastleEscape",
+      "ChildDungeon",
+      "AncientDungeon",
+      "MysticalDungeon",
+      "SpookyDungeon",
+      "AdultDungeon",
+      "Dungeon"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "uuid": "32233e2f-ff2b-45ed-81da-ec3bd9dc580e",
+    "file": "Breath of the Wild/Hyrule Field.ootrs"
   }
 ]
