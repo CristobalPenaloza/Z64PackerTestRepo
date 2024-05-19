@@ -1,10 +1,10 @@
 [
   {
-    "game": "The Legend of Zelda Breath of the Wild",
-    "song": "Hyrule Castle",
+    "game": "Meme",
+    "song": "BIRDUP",
     "type": "fanfare",
     "composers": [
-      "Koji Kondo"
+      "Unknown"
     ],
     "converters": [
       "Tolin"
@@ -13,10 +13,10 @@
     "categories": [
       "8-9"
     ],
-    "usesCustomBank": false,
-    "usesCustomSamples": false,
+    "usesCustomBank": true,
+    "usesCustomSamples": true,
     "uuid": "8d88b9c1-b16a-4f56-8bfe-4f51e674780a",
-    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs"
+    "file": "Meme/BIRDUP.mmrs"
   },
   {
     "game": "A Hat in Time",
