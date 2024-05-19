@@ -1,8 +1,8 @@
 [
   {
     "game": "The Legend of Zelda Breath of the Wild",
-    "song": "Hyrule Castle 2",
-    "type": "bgm",
+    "song": "Hyrule Castle",
+    "type": "fanfare",
     "composers": [
       "Koji Kondo"
     ],
@@ -10,11 +10,13 @@
       "Tolin"
     ],
     "preview": "https://www.youtube.com/watch?v=J-I6td_UvWY&ab_channel=Darunia%27sJoy",
-    "categories": "HyruleField,LostWoods,GerudoValley,Fields,Outdoors,Overworld,InsideDekuTree,DodongosCavern,JabuJabu,ForestTemple,IceCavern,FireTemple,WaterTemple,SpiritTemple,ShadowTemple,CastleUnderground,CastleEscape,ChildDungeon,AncientDungeon,MysticalDungeon,SpookyDungeon,AdultDungeon,Dungeon\r",
+    "categories": [
+      "8-9"
+    ],
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "8d88b9c1-b16a-4f56-8bfe-4f51e674780a",
-    "file": "Breath of the Wild/Hyrule Field.ootrs"
+    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs"
   },
   {
     "game": "A Hat in Time",
