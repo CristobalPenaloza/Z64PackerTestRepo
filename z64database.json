@@ -509,5 +509,25 @@
     "usesCustomSamples": true,
     "uuid": "a1e37aea-0268-4ca1-a87f-f22e04ad6df3",
     "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs"
+  },
+  {
+    "uuid": "3972e3d7-3329-4c38-a0fa-177f9b78fa18",
+    "game": "Mundial Ronaldinho Soccer 64",
+    "song": "Intro",
+    "composers": [
+      "IDK"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=K8NKNKub2HI&ab_channel=Mato",
+    "type": "",
+    "categories": [
+      "9",
+      "121"
+    ],
+    "usesCustomBank": true,
+    "usesCustomSamples": true,
+    "file": "Mundial Ronaldinho Soccer 64/Intro.mmrs"
   }
 ]
