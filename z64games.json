@@ -1,10 +1,18 @@
 [
-  "Animal Crossing": {
+  {
+    "game": "Animal Crossing",
     "series": "Animal Crossing Series",
-    "icon": "",
     "platforms": [
       "GameCube"
     ],
     "abbrName": "AC"
+  },
+  {
+    "game": "Animal Crossing New Horizons",
+    "series": "Animal Crossing Series",
+    "platforms": [
+      "Switch"
+    ],
+    "abbrName": "ACNH"
   }
 ]
