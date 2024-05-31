@@ -16,25 +16,44 @@ def detectSongs():
         # Pack all the files in a single zip, to provide a faster download in the web tool
         with zipfile.ZipFile('binaries.zip', 'w', zipfile.ZIP_DEFLATED) as binariesZip:
 
+            # Try to create necessary files
+            if not os.path.exists('z64songs.json'):
+                with open('z64songs.json', 'w+') as f: f.write('[]')
+            if not os.path.exists('z64games.json'):
+                with open('z64games.json', 'w+') as f: f.write('[]')
+
             # Open the database, so we can modify it
-            with open(properties['database'], 'r+') as databaseFile:
+            with open('z64songs.json', 'r+') as databaseFile:
                 database = json.load(databaseFile)
                 
                 # First, check if the names and files are correct
                 # The database name has priority in this
                 for i, entry in enumerate(database):
-                    actualPath = entry['file']
-                    intendedPath = entry['game'] + '/' + entry['song'] + os.path.splitext(actualPath)[1]
-                    if intendedPath != actualPath:
-                        print('DIFFERENT PATH DETECTED')
-                        print('Intended path: ' + intendedPath)
-                        print('Actual path:   ' + entry['file'])
-                        print('Fixing... ')
 
-                        # Only rename it if we find it... It may have changed already!
-                        database[i]['file'] = intendedPath
-                        if os.path.isfile(os.path.join(binaries, actualPath)):
+                    # Check if the file is there...
+                    actualPath = entry['file']
+                    if os.path.isfile(os.path.join(binaries, actualPath)):
+                        
+                        # If the file exists, check if the path is the intended one
+                        intendedPath = entry['game'] + '/' + entry['song'] + os.path.splitext(actualPath)[1]
+                        if intendedPath != actualPath:
+                            print('DIFFERENT PATH DETECTED')
+                            print('Intended path: ' + intendedPath)
+                            print('Actual path:   ' + entry['file'])
+                            print('Fixing... ')
+
+                            # Only rename it if we find it... It may have changed already!
+                            database[i]['file'] = intendedPath
                             os.rename(os.path.join(binaries, actualPath), os.path.join(binaries, intendedPath))
+                    
+                    # If we don't find it, then remove it from the database
+                    # Still, evaluate if this is ok to do...
+                    else:
+                        print('MISSING ENTRY DETECTED')
+                        print('Path: ' + actualPath)
+                        print('Removing...')
+                        database.pop(i)
+
 
 
                 # Check every single file inside the binaries folder
@@ -150,7 +169,6 @@ def extractMetadataFromMMRS(path) -> tuple[str, list, bool, bool]:
                 usesCustomSamples = any(n.endswith('.zsound') for n in namelist)
 
                 return seq_type, categories, usesCustomBank, usesCustomSamples
-
 
 def main():
     result = detectSongs()
