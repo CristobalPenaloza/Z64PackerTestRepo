@@ -21,11 +21,15 @@
   },
   {
     "game": "A Hat in Time",
-    "song": "City of Calcite",
+    "song": "City of Calcites",
     "type": "bgm",
-    "composers": "",
-    "converters": "",
-    "preview": "",
+    "composers": [
+      "Someone"
+    ],
+    "converters": [
+      "Someone"
+    ],
+    "preview": "https://www.youtube.com/watch?v=F7TggRdIDqA",
     "categories": [
       "1"
     ],
