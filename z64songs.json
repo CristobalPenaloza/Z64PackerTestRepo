@@ -43,9 +43,13 @@
     "game": "Dragon Quest III",
     "song": "Adventure",
     "type": "bgm",
-    "composers": "Koichi Sugiyama",
-    "converters": "Tolin",
-    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1205717713654259743/Dragon_Quest_III_-_Adventure.mp3?ex=662d1a60&is=662bc8e0&hm=21bfc8df86dd3d47f84bf569c652f2e96ca2a8a9e0f21fe4541f29bc3ca89f6f&",
+    "composers": [
+      "Koichi Sugiyama"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1205717713654259743/Dragon_Quest_III_-_Adventure.mp3",
     "categories": [
       "HyruleField",
       "Fields",
@@ -55,7 +59,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "59c3a5c0-2289-483c-8b58-cd228931a96d",
-    "file": "Dragon Quest III/Adventure.ootrs"
+    "file": "Dragon Quest III/Adventure.ootrs",
+    "lastUpdateDate": "2025-04-19T02:42:47.254Z"
   },
   {
     "game": "The Sims",
