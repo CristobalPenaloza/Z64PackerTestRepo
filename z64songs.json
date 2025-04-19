@@ -81,9 +81,13 @@
     "game": "Mario Kart 8 Deluxe",
     "song": "Choco Mountain",
     "type": "bgm",
-    "composers": "Kenta Nagata",
-    "converters": "Tolin",
-    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1169810569654702132/Mario_Kart_8_Deluxe_-_Choco_Mountain.mp3?ex=662cfdbd&is=662bac3d&hm=08bdaefe3c82ee7df1822b666c427c9e652831f8b52a5e26845c35b532c0a1a3&",
+    "composers": [
+      "Kenta Nagata"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1169810569654702132/Mario_Kart_8_Deluxe_-_Choco_Mountain.mp3",
     "categories": [
       "Mini-game",
       "HorseRace",
@@ -96,7 +100,8 @@
     "usesCustomBank": true,
     "usesCustomSamples": false,
     "uuid": "50fdfedb-9ed8-4811-ba62-70a3347910a1",
-    "file": "Mario Kart 8 Deluxe/Choco Mountain.ootrs"
+    "file": "Mario Kart 8 Deluxe/Choco Mountain.ootrs",
+    "lastUpdateDate": "2025-04-19T02:31:46.493Z"
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
