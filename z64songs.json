@@ -544,5 +544,31 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "file": "Mundial Ronaldinho Soccer 64/Intro.mmrs"
+  },
+  {
+    "uuid": "6530ac8c-e8f1-4127-9ca3-e4aad4ea01ce",
+    "creationDate": "2025-04-19T02:45:06.616Z",
+    "game": "Elvis Crespo",
+    "song": "Suavemente (MIDI version)",
+    "composers": [
+      "Elvis Crespo"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "preview": "https://www.youtube.com/watch?v=BCrxC_Bn5Tk&pp=ygUab2NhcmluYSBvZiB0aW1lIHN1YXZlbWVudGU%3D",
+    "type": "",
+    "categories": [
+      "GanondorfBattle",
+      "GanonBattle",
+      "BossBattle",
+      "FinalFight",
+      "BossFight",
+      "BigFight",
+      "Fight"
+    ],
+    "usesCustomBank": true,
+    "usesCustomSamples": false,
+    "file": "Elvis Crespo/Suavemente (MIDI version).ootrs"
   }
 ]
