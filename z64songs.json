@@ -84,7 +84,7 @@
   },
   {
     "game": "Mario Kart 8 Deluxe",
-    "song": "Choco Mountain",
+    "song": "Choco Mountains",
     "type": "bgm",
     "composers": [
       "Kenta Nagata"
@@ -106,7 +106,8 @@
     "usesCustomSamples": false,
     "uuid": "50fdfedb-9ed8-4811-ba62-70a3347910a1",
     "file": "Mario Kart 8 Deluxe/Choco Mountain.ootrs",
-    "lastUpdateDate": "2025-04-19T02:31:46.493Z"
+    "lastUpdateDate": "2025-04-26T01:13:26.767Z",
+    "isDMCACritical": false
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
