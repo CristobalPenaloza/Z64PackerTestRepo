@@ -573,5 +573,36 @@
     "file": "Elvis Crespo/Suavemente (MIDI version).ootrs",
     "lastUpdateDate": "2025-04-20T01:50:37.289Z",
     "isDMCACritical": true
+  },
+  {
+    "uuid": "25cb41c0-269d-46bb-83fb-8ec57ad5a11c",
+    "creationDate": "2025-04-27T02:36:00.619Z",
+    "game": "Elden Ring",
+    "song": "Godskin Apostles (Phase 1)",
+    "composers": [
+      "Tai Tomisawa"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "isDMCACritical": false,
+    "type": "",
+    "categories": [
+      "BossBattle",
+      "FireBoss",
+      "GanondorfBattle",
+      "GanonBattle",
+      "GanondorfTheme",
+      "KotakeAndKoume",
+      "BossFight",
+      "FinalFight",
+      "VillainTheme",
+      "BigFight",
+      "Fight"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "file": "Elden Ring/Godskin Apostles (Phase 1).ootrs",
+    "preview": "Elden Ring/Godskin Apostles (Phase 1).mp3"
   }
 ]
