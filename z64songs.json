@@ -655,13 +655,13 @@
     "game": "Among Us",
     "song": "Role Reveal",
     "composers": [
-      "Unknown"
+      "None"
     ],
     "converters": [
       "Tolin"
     ],
     "isDMCACritical": false,
-    "type": "fanfare",
+    "type": "",
     "categories": [
       "ZeldaTurnsAround",
       "GanondorfAppears",
@@ -673,6 +673,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "file": "Among Us/Role Reveal.ootrs",
-    "preview": "Among Us/Role Reveal.mp3"
+    "preview": "Among Us/Role Reveal.mp3",
+    "lastUpdateDate": "2025-04-27T22:15:50.087Z"
   }
 ]
