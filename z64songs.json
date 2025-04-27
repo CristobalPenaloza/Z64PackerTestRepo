@@ -21,7 +21,7 @@
   },
   {
     "game": "A Hat in Time",
-    "song": "City of Calcite",
+    "song": "City of Calcites",
     "type": "bgm",
     "composers": [
       "Unknown"
@@ -37,7 +37,8 @@
     "usesCustomSamples": false,
     "uuid": "c3d33eaa-e631-4bf9-8f88-cbadccdfa134",
     "file": "A Hat in Time/City of Calcite.mmrs",
-    "lastUpdateDate": "2025-04-19T02:38:02.511Z"
+    "lastUpdateDate": "2025-04-27T22:11:10.864Z",
+    "isDMCACritical": false
   },
   {
     "game": "Dragon Quest III",
