@@ -604,5 +604,42 @@
     "usesCustomSamples": false,
     "file": "Elden Ring/Godskin Apostles (Phase 1).ootrs",
     "preview": "Elden Ring/Godskin Apostles (Phase 1).mp3"
+  },
+  {
+    "uuid": "f44cdd75-7f22-4649-ab63-77388519c9c0",
+    "creationDate": "2025-04-27T02:57:16.591Z",
+    "game": "Monster Hunter Generations Ultimate",
+    "song": "Valstrax",
+    "composers": [
+      "Reo Uratani"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "isDMCACritical": false,
+    "type": "",
+    "categories": [
+      "CastleUnderground",
+      "CastleEscape",
+      "Battle",
+      "MinibossBattle",
+      "BossBattle",
+      "FireBoss",
+      "GanondorfBattle",
+      "GanonBattle",
+      "GanondorfTheme",
+      "SpookyDungeon",
+      "SmallFight",
+      "BossFight",
+      "FinalFight",
+      "AdultDungeon",
+      "BigFight",
+      "Dungeon",
+      "Fight"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "file": "Monster Hunter Generations Ultimate/Valstrax.ootrs",
+    "preview": "Monster Hunter Generations Ultimate/Valstrax.mp3"
   }
 ]
