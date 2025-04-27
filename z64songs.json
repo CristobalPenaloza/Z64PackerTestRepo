@@ -648,5 +648,31 @@
     "usesCustomSamples": false,
     "file": "Monster Hunter Generations Ultimate/Valstrax.ootrs",
     "preview": "Monster Hunter Generations Ultimate/Valstrax.mp3"
+  },
+  {
+    "uuid": "4685a50b-6c9c-40f4-85b0-a61872ea59cb",
+    "creationDate": "2025-04-27T22:13:05.151Z",
+    "game": "Among Us",
+    "song": "Role Reveal",
+    "composers": [
+      "Unknown"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "isDMCACritical": false,
+    "type": "",
+    "categories": [
+      "ZeldaTurnsAround",
+      "GanondorfAppears",
+      "GameOver",
+      "SuccessFanfare",
+      "BigFanfare",
+      "EventFanfare"
+    ],
+    "usesCustomBank": true,
+    "usesCustomSamples": true,
+    "file": "Among Us/Role Reveal.ootrs",
+    "preview": "Among Us/Role Reveal.mp3"
   }
 ]
