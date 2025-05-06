@@ -675,5 +675,34 @@
     "file": "Among Us/Role Reveal.ootrs",
     "preview": "Among Us/Role Reveal.mp3",
     "lastUpdateDate": "2025-04-27T22:29:31.569Z"
+  },
+  {
+    "uuid": "f60406d0-9e25-4a63-a160-cefd4cc47134",
+    "creationDate": "2025-05-06T16:10:30.184Z",
+    "game": "20th Century Fox",
+    "song": "Intro",
+    "composers": [
+      "Alfred Newman"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "isDMCACritical": false,
+    "type": "",
+    "categories": [
+      "HeartContainerGet",
+      "SpiritStoneGet",
+      "MedallionGet",
+      "BossDefeated",
+      "EscapeFromRanch",
+      "MasterSword",
+      "SuccessFanfare",
+      "BigFanfare",
+      "EventFanfare"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "file": "20th Century Fox/Intro.ootrs",
+    "preview": "20th Century Fox/Intro.mp3"
   }
 ]
