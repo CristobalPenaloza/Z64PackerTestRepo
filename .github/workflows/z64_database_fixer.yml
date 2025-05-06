@@ -14,8 +14,7 @@ on:
     inputs:
       commit_message:
         description: 'Commit message'
-        default: 'Manual run for @${{ github.actor }}'
-        required: true
+        required: false
         type: string
 
 jobs:
@@ -42,5 +41,5 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "<>"
           git add -A
-          git commit -m "Database fixer - ${{ inputs.commit_message }}"
+          git commit -m "Database fixer - ${{ fromJSON('["Manual run for @" + github.actor, inputs.commit_message]')[inputs.commit_message == ''] }}"
           git push
