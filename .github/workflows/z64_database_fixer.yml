@@ -41,5 +41,5 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "<>"
           git add -A
-          git commit -m "Database fixer - ${{ fromJSON('["Manual run for @" + github.actor, inputs.commit_message]')[inputs.commit_message == ''] }}"
+          git commit -m "Database fixer - ${{ fromJSON('[join(["Manual run for @", github.actor], ""), inputs.commit_message]')[inputs.commit_message == ''] }}"
           git push
