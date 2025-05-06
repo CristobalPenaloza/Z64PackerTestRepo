@@ -688,7 +688,7 @@
       "Tolin"
     ],
     "isDMCACritical": false,
-    "type": "",
+    "type": "fanfare",
     "categories": [
       "HeartContainerGet",
       "SpiritStoneGet",
