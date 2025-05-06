@@ -1,0 +1,46 @@
+# Script for managing untracked additions to the repo, and generating the binaries.zip file for faster downloads
+
+# To install this workflow in your repo:
+# 1. Go to Actions > New workflow
+# 2. Go to "Set up a workflow yourself"
+# 3. Set the name of the new file to "z64_database_fixer.yml"
+# 4. Copy and paste the contents of this file to the textbox that says "Enter file contents here"
+# 5. Finally, press "Commit changes"
+
+name: Z64 - Database fixer
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Commit message'
+        default: 'Manual run'
+        required: true
+        type: string
+
+jobs:
+  build:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.x"]
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          
+      - name: Run checks
+        run: python "z64_missing_song_detector.py" --ci
+        
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "<>"
+          git add -A
+          git commit -m "Database fixer - ${{ inputs.commit_message }}"
+          git push
