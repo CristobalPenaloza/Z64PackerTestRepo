@@ -14,7 +14,7 @@ on:
     inputs:
       commit_message:
         description: 'Commit message'
-        default: 'Manual run'
+        default: 'Manual run for ${{ github.actor }}'
         required: true
         type: string
 
