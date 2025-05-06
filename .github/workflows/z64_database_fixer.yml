@@ -11,11 +11,6 @@ name: Z64 - Database fixer
 
 on:
   workflow_dispatch:
-    inputs:
-      commit_message:
-        description: 'Commit message'
-        required: false
-        type: string
 
 jobs:
   build:
@@ -41,5 +36,5 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "<>"
           git add -A
-          git commit -m "Database fixer - ${{ fromJSON('[join(["Manual run for @", github.actor], ""), inputs.commit_message]')[inputs.commit_message == ''] }}"
+          git commit -m "Database fixer - Manual run for @${{ github.actor }}"
           git push
