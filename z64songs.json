@@ -91,7 +91,7 @@
   },
   {
     "game": "Mario Kart 8 Deluxe",
-    "song": "Choco Mountains",
+    "song": "Choco Mountain",
     "type": "bgm",
     "composers": [
       "Kenta Nagata"
@@ -99,7 +99,7 @@
     "converters": [
       "Tolin"
     ],
-    "preview": "https://cdn.discordapp.com/attachments/750479351736434828/1169810569654702132/Mario_Kart_8_Deluxe_-_Choco_Mountain.mp3",
+    "preview": "Mario Kart 8 Deluxe/Choco Mountain.mp3",
     "categories": [
       "Mini-game",
       "HorseRace",
@@ -113,7 +113,7 @@
     "usesCustomSamples": false,
     "uuid": "50fdfedb-9ed8-4811-ba62-70a3347910a1",
     "file": "Mario Kart 8 Deluxe/Choco Mountains.ootrs",
-    "lastUpdateDate": "2025-04-26T01:13:26.767Z",
+    "lastUpdateDate": "2025-05-07T02:35:36.518Z",
     "isDMCACritical": false
   },
   {
