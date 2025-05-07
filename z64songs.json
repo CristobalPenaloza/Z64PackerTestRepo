@@ -731,5 +731,34 @@
     "usesCustomSamples": true,
     "file": "Hell's Kitchen/Waterphone.ootrs",
     "preview": "Hell's Kitchen/Waterphone.mp3"
+  },
+  {
+    "uuid": "5cec3d9e-f1ba-4a1c-abb8-ff21bd12ebbd",
+    "creationDate": "2025-05-07T03:01:36.789Z",
+    "game": "PlayStation 2",
+    "song": "Bootup",
+    "composers": [
+      "Unknown"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "isDMCACritical": false,
+    "type": "",
+    "categories": [
+      "LearnSong",
+      "BossDefeated",
+      "DoorOfTime",
+      "ZeldaTurnsAround",
+      "GameOver",
+      "ItemFanfare",
+      "SuccessFanfare",
+      "BigFanfare",
+      "EventFanfare"
+    ],
+    "usesCustomBank": true,
+    "usesCustomSamples": true,
+    "file": "PlayStation 2/Bootup.ootrs",
+    "preview": "PlayStation 2/Bootup.mp3"
   }
 ]
