@@ -705,5 +705,31 @@
     "file": "20th Century Fox/Intro.ootrs",
     "preview": "20th Century Fox/Intro.mp3",
     "lastUpdateDate": "2025-05-06T16:16:23.579Z"
+  },
+  {
+    "uuid": "21823532-c009-4df3-a195-8ae8274a37d0",
+    "creationDate": "2025-05-07T02:34:03.561Z",
+    "game": "Hell's Kitchen",
+    "song": "Waterphone",
+    "composers": [
+      "Gordon Ramsei"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "isDMCACritical": false,
+    "type": "",
+    "categories": [
+      "ZeldaTurnsAround",
+      "GanondorfAppears",
+      "GameOver",
+      "SuccessFanfare",
+      "BigFanfare",
+      "EventFanfare"
+    ],
+    "usesCustomBank": true,
+    "usesCustomSamples": true,
+    "file": "Hell's Kitchen/Waterphone.ootrs",
+    "preview": "Hell's Kitchen/Waterphone.mp3"
   }
 ]
