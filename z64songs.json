@@ -661,7 +661,7 @@
       "Tolin"
     ],
     "isDMCACritical": false,
-    "type": "fanfare",
+    "type": "",
     "categories": [
       "ZeldaTurnsAround",
       "GanondorfAppears",
@@ -674,7 +674,7 @@
     "usesCustomSamples": true,
     "file": "Among Us/Role Reveal.ootrs",
     "preview": "Among Us/Role Reveal.mp3",
-    "lastUpdateDate": "2025-04-27T22:29:31.569Z"
+    "lastUpdateDate": "2025-05-25T01:16:47.185Z"
   },
   {
     "uuid": "f60406d0-9e25-4a63-a160-cefd4cc47134",
