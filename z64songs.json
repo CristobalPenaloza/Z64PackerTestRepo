@@ -17,7 +17,8 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "uuid": "8d88b9c1-b16a-4f56-8bfe-4f51e674780a",
-    "file": "Meme/BIRDUP.mmrs"
+    "file": "Meme/BIRDUP.mmrs",
+    "usesFormmask": false
   },
   {
     "game": "A Hat in Time",
@@ -38,7 +39,8 @@
     "uuid": "c3d33eaa-e631-4bf9-8f88-cbadccdfa134",
     "file": "A Hat in Time/City of Calcite.mmrs",
     "lastUpdateDate": "2025-04-27T22:11:19.997Z",
-    "isDMCACritical": false
+    "isDMCACritical": false,
+    "usesFormmask": false
   },
   {
     "game": "Dragon Quest III",
@@ -61,7 +63,8 @@
     "usesCustomSamples": false,
     "uuid": "59c3a5c0-2289-483c-8b58-cd228931a96d",
     "file": "Dragon Quest III/Adventure.ootrs",
-    "lastUpdateDate": "2025-04-19T02:42:47.254Z"
+    "lastUpdateDate": "2025-04-19T02:42:47.254Z",
+    "usesFormmask": false
   },
   {
     "game": "The Sims",
@@ -87,7 +90,8 @@
     "uuid": "67d1969f-7340-4cb5-8193-398c35d16176",
     "file": "The Sims/Mall Rat.ootrs",
     "lastUpdateDate": "2025-05-07T03:02:06.521Z",
-    "isDMCACritical": false
+    "isDMCACritical": false,
+    "usesFormmask": false
   },
   {
     "game": "Mario Kart 8 Deluxe",
@@ -114,7 +118,8 @@
     "uuid": "50fdfedb-9ed8-4811-ba62-70a3347910a1",
     "file": "Mario Kart 8 Deluxe/Choco Mountains.ootrs",
     "lastUpdateDate": "2025-05-07T02:35:36.518Z",
-    "isDMCACritical": false
+    "isDMCACritical": false,
+    "usesFormmask": false
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -137,7 +142,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "ebfabfe1-52ca-4788-a215-9b4ae588cead",
-    "file": "The Legend of Zelda Breath of the Wild/Mipha's Theme.ootrs"
+    "file": "The Legend of Zelda Breath of the Wild/Mipha's Theme.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -156,7 +162,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "28e13df1-f2c1-4d9f-b495-4a16f1b50b7a",
-    "file": "The Legend of Zelda Breath of the Wild/Sit by the campfire.ootrs"
+    "file": "The Legend of Zelda Breath of the Wild/Sit by the campfire.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "A Hat in Time",
@@ -182,7 +189,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "40a098ca-d379-48ee-98d5-bfad1e855cfe",
-    "file": "A Hat in Time/Clocktowers Beneath the Sky.ootrs"
+    "file": "A Hat in Time/Clocktowers Beneath the Sky.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "A Hat in Time",
@@ -202,7 +210,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "bfb2fa57-f8e5-4c80-8b4f-089628d026ff",
-    "file": "A Hat in Time/Deathwish.ootrs"
+    "file": "A Hat in Time/Deathwish.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "testtest",
@@ -236,7 +245,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "568b20b1-6062-4992-b0f1-726f199dfc54",
-    "file": "testtest/test1.ootrs"
+    "file": "testtest/test1.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "Bloodborne",
@@ -270,7 +280,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "f57f177a-352e-4b68-a68e-13377742d57a",
-    "file": "Bloodborne/Cleric Beast.ootrs"
+    "file": "Bloodborne/Cleric Beast.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "Bloodborne",
@@ -304,7 +315,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "65d098c2-77cc-4893-930f-ae27a3bd5fa6",
-    "file": "Bloodborne/Ludwig The Holy Blade.ootrs"
+    "file": "Bloodborne/Ludwig The Holy Blade.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "Animal Crossing New Horizons",
@@ -341,7 +353,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "955d7005-17b4-4b2a-9c98-f50be0b97e39",
-    "file": "Animal Crossing New Horizons/6PM.ootrs"
+    "file": "Animal Crossing New Horizons/6PM.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "Animal Crossing",
@@ -366,7 +379,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "dc31fd0a-b18f-4b2c-836b-6ecba7dd0405",
-    "file": "Animal Crossing/Comrade K.K. (Aircheck).ootrs"
+    "file": "Animal Crossing/Comrade K.K. (Aircheck).ootrs",
+    "usesFormmask": false
   },
   {
     "game": "Banjo-Kazooie",
@@ -392,7 +406,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "590b9d22-6faf-409b-b248-f220dd509271",
-    "file": "Banjo-Kazooie/Battle With Gruntilda.ootrs"
+    "file": "Banjo-Kazooie/Battle With Gruntilda.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "Banjo-Kazooie",
@@ -423,7 +438,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "uuid": "1927b26c-5adf-49b7-a326-cac13d858234",
-    "file": "Banjo-Kazooie/Bubblegoop Swamp.ootrs"
+    "file": "Banjo-Kazooie/Bubblegoop Swamp.ootrs",
+    "usesFormmask": false
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -464,7 +480,8 @@
     "converters": [
       "Tolin"
     ],
-    "preview": "https://www.youtube.com/watch?v=J-I6td_UvWY&ab_channel=Darunia%27sJoy"
+    "preview": "https://www.youtube.com/watch?v=J-I6td_UvWY&ab_channel=Darunia%27sJoy",
+    "usesFormmask": false
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -531,7 +548,8 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "uuid": "a1e37aea-0268-4ca1-a87f-f22e04ad6df3",
-    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs"
+    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs",
+    "usesFormmask": false
   },
   {
     "uuid": "3972e3d7-3329-4c38-a0fa-177f9b78fa18",
@@ -551,7 +569,8 @@
     ],
     "usesCustomBank": true,
     "usesCustomSamples": true,
-    "file": "Mundial Ronaldinho Soccer 64/Intro.mmrs"
+    "file": "Mundial Ronaldinho Soccer 64/Intro.mmrs",
+    "usesFormmask": false
   },
   {
     "uuid": "6530ac8c-e8f1-4127-9ca3-e4aad4ea01ce",
@@ -579,7 +598,8 @@
     "usesCustomSamples": false,
     "file": "Elvis Crespo/Suavemente (MIDI version).ootrs",
     "lastUpdateDate": "2025-04-20T01:50:37.289Z",
-    "isDMCACritical": true
+    "isDMCACritical": true,
+    "usesFormmask": false
   },
   {
     "uuid": "25cb41c0-269d-46bb-83fb-8ec57ad5a11c",
@@ -610,7 +630,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "file": "Elden Ring/Godskin Apostles (Phase 1).ootrs",
-    "preview": "Elden Ring/Godskin Apostles (Phase 1).mp3"
+    "preview": "Elden Ring/Godskin Apostles (Phase 1).mp3",
+    "usesFormmask": false
   },
   {
     "uuid": "f44cdd75-7f22-4649-ab63-77388519c9c0",
@@ -647,7 +668,8 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "file": "Monster Hunter Generations Ultimate/Valstrax.ootrs",
-    "preview": "Monster Hunter Generations Ultimate/Valstrax.mp3"
+    "preview": "Monster Hunter Generations Ultimate/Valstrax.mp3",
+    "usesFormmask": false
   },
   {
     "uuid": "4685a50b-6c9c-40f4-85b0-a61872ea59cb",
@@ -661,7 +683,7 @@
       "Tolin"
     ],
     "isDMCACritical": false,
-    "type": "",
+    "type": "fanfare",
     "categories": [
       "ZeldaTurnsAround",
       "GanondorfAppears",
@@ -674,7 +696,8 @@
     "usesCustomSamples": true,
     "file": "Among Us/Role Reveal.ootrs",
     "preview": "Among Us/Role Reveal.mp3",
-    "lastUpdateDate": "2025-05-25T01:16:47.185Z"
+    "lastUpdateDate": "2025-05-25T01:16:47.185Z",
+    "usesFormmask": false
   },
   {
     "uuid": "f60406d0-9e25-4a63-a160-cefd4cc47134",
@@ -704,7 +727,8 @@
     "usesCustomSamples": false,
     "file": "20th Century Fox/Intro.ootrs",
     "preview": "20th Century Fox/Intro.mp3",
-    "lastUpdateDate": "2025-05-06T16:16:23.579Z"
+    "lastUpdateDate": "2025-05-06T16:16:23.579Z",
+    "usesFormmask": false
   },
   {
     "uuid": "21823532-c009-4df3-a195-8ae8274a37d0",
@@ -730,7 +754,8 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "file": "Hell's Kitchen/Waterphone.ootrs",
-    "preview": "Hell's Kitchen/Waterphone.mp3"
+    "preview": "Hell's Kitchen/Waterphone.mp3",
+    "usesFormmask": false
   },
   {
     "uuid": "5cec3d9e-f1ba-4a1c-abb8-ff21bd12ebbd",
@@ -759,6 +784,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "file": "PlayStation 2/Bootup.ootrs",
-    "preview": "PlayStation 2/Bootup.mp3"
+    "preview": "PlayStation 2/Bootup.mp3",
+    "usesFormmask": false
   }
 ]
