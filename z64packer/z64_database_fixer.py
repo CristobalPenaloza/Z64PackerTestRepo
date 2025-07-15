@@ -21,9 +21,9 @@ def detectSongs():
 
             # Try to create necessary files
             if not os.path.exists('z64packer/z64songs.json'):
-                with open('z64songs.json', 'w+') as f: f.write('[]')
+                with open('z64packer/z64songs.json', 'w+') as f: f.write('[]')
             if not os.path.exists('z64packer/z64games.json'):
-                with open('z64games.json', 'w+') as f: f.write('[]')
+                with open('z64packer/z64games.json', 'w+') as f: f.write('[]')
 
             # First, open the games database
             with open('z64packer/z64games.json', 'r+') as gamesFile:
