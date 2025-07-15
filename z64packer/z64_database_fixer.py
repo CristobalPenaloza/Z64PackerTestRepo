@@ -8,30 +8,30 @@ import yaml
 from pathlib import Path
 
 def detectSongs():
-    if not os.path.exists('z64packer/z64musicpacker.properties'):
+    if not os.path.exists('z64musicpacker.properties'):
       print('This is not an Z64 repository | Missing z64musicpacker.properties file')
       return False
     
-    with open('z64packer/z64musicpacker.properties') as propertiesFile:
+    with open('z64musicpacker.properties') as propertiesFile:
         properties = json.load(propertiesFile)
         binaries = properties['binaries']
 
         # Pack all the files in a single zip, to provide a faster download in the web tool
-        with zipfile.ZipFile('z64packer/binaries.zip', 'w', zipfile.ZIP_DEFLATED) as binariesZip:
+        with zipfile.ZipFile('binaries.zip', 'w', zipfile.ZIP_DEFLATED) as binariesZip:
 
             # Try to create necessary files
-            if not os.path.exists('z64packer/z64songs.json'):
+            if not os.path.exists('z64songs.json'):
                 with open('z64songs.json', 'w+') as f: f.write('[]')
-            if not os.path.exists('z64packer/z64games.json'):
+            if not os.path.exists('z64games.json'):
                 with open('z64games.json', 'w+') as f: f.write('[]')
 
             # First, open the games database
-            with open('z64packer/z64games.json', 'r+') as gamesFile:
+            with open('z64games.json', 'r+') as gamesFile:
                 print("OPENING GAME DATABASE FILE")
                 games = json.load(gamesFile)
 
                 # Open the database, so we can modify it
-                with open('z64packer/z64songs.json', 'r+') as databaseFile:
+                with open('z64songs.json', 'r+') as databaseFile:
                     print("OPENING SONG DATABASE FILE")
                     database = json.load(databaseFile)
                     
