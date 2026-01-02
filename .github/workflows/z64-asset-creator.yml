@@ -20,6 +20,7 @@ jobs:
           tag: 'z64packer'
           latest: true
           fileName: '*'
+          out-file-path: 'z64packer'
 
       - name: Display structure of downloaded files
         run: ls -R
