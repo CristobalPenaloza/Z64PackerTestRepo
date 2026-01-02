@@ -1,0 +1,65 @@
+name: Z64 - Database fixer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.x"]
+
+    steps:
+      - uses: actions/checkout@v3
+          
+      - name: Download latest version of database fixer and it's dependencies
+        run: |
+          curl -o z64packer/z64_database_fixer.py https://raw.githubusercontent.com/CristobalPenaloza/cristobalpenaloza.github.io/refs/heads/main/z64_repo_kit/z64packer/z64_database_fixer.py
+          curl -o z64packer/z64_python_requirements.txt https://raw.githubusercontent.com/CristobalPenaloza/cristobalpenaloza.github.io/refs/heads/main/z64_repo_kit/z64packer/z64_python_requirements.txt
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          path: "z64packer/z64_python_requirements.txt"
+
+      - name: Run database fixer
+        run: python "z64packer/z64_database_fixer.py" --ci
+        
+      - name: Upload generated binaries.zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: binaries.zip
+          path: z64packer
+
+      - name: Upload generated z64games.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: z64games.json
+          path: z64packer
+
+      - name: Upload generated z64songs.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: z64songs.json
+          path: z64packer
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: |
+            z64packer/binaries.zip
+            z64packer/z64games.json
+            z64packer/z64songs.json
+          tag_name: z64packer
+          name: Z64 Packer Assets
+          draft: false
+          prerelease: false
