@@ -1,4 +1,4 @@
-name: Z64 - Database fixer
+name: Z64 - Asset creator
 
 on:
   workflow_dispatch:
