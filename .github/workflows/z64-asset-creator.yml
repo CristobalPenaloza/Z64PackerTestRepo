@@ -13,19 +13,21 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-          
-      - name: Download latest version of database fixer and it's dependencies
-        run: |
-          curl -o z64packer/z64_database_fixer.py --create-dirs https://raw.githubusercontent.com/CristobalPenaloza/cristobalpenaloza.github.io/refs/heads/main/z64_repo_kit/z64packer/z64_database_fixer.py
-          curl -o z64packer/z64_python_requirements.txt --create-dirs https://raw.githubusercontent.com/CristobalPenaloza/cristobalpenaloza.github.io/refs/heads/main/z64_repo_kit/z64packer/z64_python_requirements.txt
 
       - name: Download current artifacts if there is any
         uses: actions/download-artifact@v4
         with:
-          name: z64assets
+          path: z64packer
+          pattern: z64packer/*
+          merge-multiple: true
 
       - name: Display structure of downloaded files
         run: ls -R
+
+      - name: Download latest version of database fixer and it's dependencies
+        run: |
+          curl -o z64packer/z64_database_fixer.py --create-dirs https://raw.githubusercontent.com/CristobalPenaloza/cristobalpenaloza.github.io/refs/heads/main/z64_repo_kit/z64packer/z64_database_fixer.py
+          curl -o z64packer/z64_python_requirements.txt --create-dirs https://raw.githubusercontent.com/CristobalPenaloza/cristobalpenaloza.github.io/refs/heads/main/z64_repo_kit/z64packer/z64_python_requirements.txt
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
