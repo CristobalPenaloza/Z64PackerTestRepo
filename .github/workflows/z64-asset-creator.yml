@@ -32,23 +32,14 @@ jobs:
       - name: Run database fixer
         run: python "z64packer/z64_database_fixer.py" --ci
         
-      - name: Upload generated binaries.zip
+      - name: Upload generated artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: binaries.zip
-          path: z64packer
-
-      - name: Upload generated z64games.json
-        uses: actions/upload-artifact@v4
-        with:
-          name: z64games.json
-          path: z64packer
-
-      - name: Upload generated z64songs.json
-        uses: actions/upload-artifact@v4
-        with:
-          name: z64songs.json
-          path: z64packer
+          name: z64assets
+          path: |
+            z64packer/binaries.zip
+            z64packer/z64games.json
+            z64packer/z64songs.json
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
