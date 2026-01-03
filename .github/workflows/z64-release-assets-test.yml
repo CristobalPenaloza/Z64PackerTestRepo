@@ -1,4 +1,4 @@
-name: Z64 - Asset creator
+name: Z64 - Release assets test
 
 on:
   workflow_dispatch:
