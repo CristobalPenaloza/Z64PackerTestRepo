@@ -12,6 +12,10 @@ jobs:
         python-version: ["3.x"]
 
     steps:
-      - uses: CristobalPenaloza/z64packer-release-assets@2d74899811a82f1a265e97c092fd6f77a8156ff3
+      - uses: CristobalPenaloza/z64packer-release-assets@fe3a9b9d28b7b3c74452cefa85586ed3205e40ad
         with:
-          who-to-greet: 'Mona the Octocat'
+          name: 'Z64 Packer Test Repo'
+          description: 'A test repo for uploading Zelda 64 files'
+          binaries-path: 'Music/'
+          previews-path: 'previews/'
+          avatar-url: 'https://avatars.githubusercontent.com/u/41912913?s=96&v=4'
