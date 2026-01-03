@@ -12,6 +12,6 @@ jobs:
         python-version: ["3.x"]
 
     steps:
-      - uses: CristobalPenaloza/z64packer-release-assets@6fce7b7862ea3db84b0bfcd96db8ade6c0001b8f
+      - uses: CristobalPenaloza/z64packer-release-assets@a751d34dc435df106e5782befca8ea8cd408ae33
         with:
           who-to-greet: 'Mona the Octocat'
