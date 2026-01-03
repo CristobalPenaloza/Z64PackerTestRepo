@@ -1,0 +1,17 @@
+name: Z64 - Asset creator
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.x"]
+
+    steps:
+      - uses: CristobalPenaloza/z64packer-release-assets@6fce7b7862ea3db84b0bfcd96db8ade6c0001b8f
+        with:
+          who-to-greet: 'Mona the Octocat'
