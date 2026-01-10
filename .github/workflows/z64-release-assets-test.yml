@@ -12,7 +12,7 @@ jobs:
         python-version: ["3.x"]
 
     steps:
-      - uses: CristobalPenaloza/z64packer-release-assets@fe3a9b9d28b7b3c74452cefa85586ed3205e40ad
+      - uses: CristobalPenaloza/z64packer-release-assets@3555c8645bd7a36d5c9fb8225ebe657d4bb22adc
         with:
           name: 'Z64 Packer Test Repo'
           description: 'A test repo for uploading Zelda 64 files'
