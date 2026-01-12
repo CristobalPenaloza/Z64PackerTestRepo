@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: CristobalPenaloza/z64packer-create-assets@2fe4d3516f8af9fcfd3316d82443d7c9dc7b67f8
+      - uses: CristobalPenaloza/z64packer-create-assets@7331493624c7108546e91f3e8a414c060544607f
         with:
           name: 'Z64 Packer Test Repo'
           description: 'A test repo for uploading Zelda 64 files'
