@@ -10,12 +10,9 @@ jobs:
   build:
     permissions: write-all
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.x"]
 
     steps:
-      - uses: CristobalPenaloza/z64packer-create-assets@8d9aa3f5d57b66ed560d19721b309df116bdab9e
+      - uses: CristobalPenaloza/z64packer-create-assets@6aa6f96431501ed4359b240b83d794f15e455a74
         with:
           name: 'Z64 Packer Test Repo'
           description: 'A test repo for uploading Zelda 64 files'
