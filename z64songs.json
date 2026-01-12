@@ -17,7 +17,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "801088f9-aa25-44f2-9083-6b90b1872c0d",
+    "uuid": "c1ca37c9-8626-4773-9839-e242a9a2240a",
     "file": "20th Century Fox/Intro.ootrs"
   },
   {
@@ -44,7 +44,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "51c6b269-c99e-4772-a701-0e3c607ce641",
+    "uuid": "e29fa3d7-3984-400e-b6c4-a1c92dc0b786",
     "file": "A Hat in Time/Clocktowers Beneath the Sky.ootrs"
   },
   {
@@ -65,7 +65,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "842cf31a-04e2-42ca-a28e-71bc31cf4ac9",
+    "uuid": "c3149347-1136-43d8-a5ee-3316dfde93fe",
     "file": "A Hat in Time/Deathwish.ootrs"
   },
   {
@@ -78,7 +78,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "4e2cb5d0-e45f-4483-b26a-7caaae32dd55",
+    "uuid": "8f1b8c8b-a029-4c89-8744-1e9a09984e70",
     "file": "A Hat in Time/City of Calcite.mmrs"
   },
   {
@@ -99,7 +99,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "ff030484-7d61-4e49-8f97-bb735ae706c9",
+    "uuid": "9447c9b5-126b-46a1-b571-60831df17102",
     "file": "The Legend of Zelda Breath of the Wild/Mipha's Theme.ootrs"
   },
   {
@@ -134,7 +134,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "7b3cf3cc-8fde-48f0-9d21-2830441e08d2",
+    "uuid": "984de963-dec3-47c6-a289-c653ef15b7a6",
     "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.ootrs"
   },
   {
@@ -145,7 +145,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "ec70f0a3-0118-47f6-ab3b-d6f69642b0f0",
+    "uuid": "ed900355-045a-476c-b126-d9516c0df2be",
     "file": "The Legend of Zelda Breath of the Wild/Sit by the campfire.ootrs"
   },
   {
@@ -159,7 +159,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "usesFormmask": false,
-    "uuid": "b02c99d9-2dd8-4805-98e1-58ed1b747234",
+    "uuid": "309f1522-320f-4000-b342-cae9177dbc0a",
     "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs"
   },
   {
@@ -190,7 +190,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "e17316e8-008d-4e05-845b-c83988102a1c",
+    "uuid": "981c20eb-0555-4f87-93fc-1d4e9ac29e3c",
     "file": "Animal Crossing New Horizons/6PM.ootrs"
   },
   {
@@ -209,7 +209,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "a0b45e3e-fa63-4436-97b5-7f925a864237",
+    "uuid": "e4ea41a2-9389-4e11-8b97-2421600881b6",
     "file": "Elvis Crespo/Suavemente (MIDI version).ootrs"
   },
   {
@@ -244,7 +244,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "11479869-38b5-4ead-b5df-ab5526ee5638",
+    "uuid": "c3d193ef-7dee-405d-a84d-38013bfa2634",
     "file": "testtest/test1.ootrs"
   },
   {
@@ -265,7 +265,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "usesFormmask": false,
-    "uuid": "6c2a4b62-f94a-4538-94ea-e1812108fca0",
+    "uuid": "62d90a97-5b3e-4396-a854-c438016b41aa",
     "file": "PlayStation 2/Bootup.ootrs"
   },
   {
@@ -279,7 +279,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "usesFormmask": false,
-    "uuid": "f80ef3f4-a1ca-4fb2-b1d4-c0fb96a85d91",
+    "uuid": "e40c50c4-42c4-4127-83cd-1e7d12b4092f",
     "file": "Meme/BIRDUP.mmrs"
   },
   {
@@ -304,7 +304,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "7f78493c-054a-4ec3-9f99-048ad1a83b9e",
+    "uuid": "b6a02143-64f0-49b4-b8f9-f4a9dbef9313",
     "file": "Banjo-Kazooie/Bubblegoop Swamp.ootrs"
   },
   {
@@ -324,7 +324,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "693cb2ad-db4c-42b6-91ea-9ea12ba13a54",
+    "uuid": "62d8c966-7637-4c3f-ba8e-547b1f0c07df",
     "file": "Banjo-Kazooie/Battle With Gruntilda.ootrs"
   },
   {
@@ -338,7 +338,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "usesFormmask": false,
-    "uuid": "b562ae68-6a5c-4147-b964-751ce87396ff",
+    "uuid": "08985127-f598-430e-bbae-488eddbe3b2f",
     "file": "Mundial Ronaldinho Soccer 64/Intro.mmrs"
   },
   {
@@ -356,7 +356,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "usesFormmask": false,
-    "uuid": "5fc7384c-64e4-49bc-9e8f-346a2176c8b5",
+    "uuid": "5320040b-51fe-47a7-9709-35f2977582ed",
     "file": "Hell's Kitchen/Waterphone.ootrs"
   },
   {
@@ -379,7 +379,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "0d773451-0152-40c7-b5b7-23df05047f6b",
+    "uuid": "8d36a08e-1d86-4484-920d-d904fd9bd903",
     "file": "Elden Ring/Godskin Apostles (Phase 1).ootrs"
   },
   {
@@ -395,7 +395,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "b1159dee-a7d1-4458-a9ec-3c14bd866848",
+    "uuid": "40c2bb98-28cd-4b32-9050-5d7397226fa8",
     "file": "Dragon Quest III/Adventure.ootrs"
   },
   {
@@ -424,7 +424,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "6af7210e-9d88-477d-87fa-66a2159526e7",
+    "uuid": "f07c1990-abe9-4720-8373-917000105819",
     "file": "Monster Hunter Generations Ultimate/Valstrax.ootrs"
   },
   {
@@ -442,7 +442,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "1f8c7f13-eaf6-4eca-8402-72e47d5db07d",
+    "uuid": "6dc4bdf0-73b8-47fb-a3ce-760c992104f3",
     "file": "The Sims/Mall Rat.ootrs"
   },
   {
@@ -465,7 +465,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "5d5b1119-fd68-469c-a0c5-5d151aebcc39",
+    "uuid": "6c5d2290-0dc2-4266-9627-9eac67eaa2de",
     "file": "Bloodborne/Ludwig The Holy Blade.ootrs"
   },
   {
@@ -488,7 +488,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "d2e70ddf-8e62-49f6-955d-2ccf5c59010f",
+    "uuid": "eea2667d-9279-4681-a2dd-d9f9ab4e7c67",
     "file": "Bloodborne/Cleric Beast.ootrs"
   },
   {
@@ -507,7 +507,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "1c5f2731-e7b6-4ebc-bd04-3fa3e1190b6d",
+    "uuid": "cfe497ce-e71f-4348-a38a-79177bae48ff",
     "file": "Mario Kart 8 Deluxe/Choco Mountains.ootrs"
   },
   {
@@ -525,7 +525,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": true,
     "usesFormmask": false,
-    "uuid": "b1e41032-e47b-456d-9b0e-9a9d09278640",
+    "uuid": "339184b0-df49-405c-aae9-4dbabf46c83f",
     "file": "Among Us/Role Reveal.ootrs"
   },
   {
@@ -544,7 +544,7 @@
     "usesCustomBank": false,
     "usesCustomSamples": false,
     "usesFormmask": false,
-    "uuid": "68e5a199-08bc-4caa-aad3-7c54b75bcc92",
+    "uuid": "d14cff31-2b2d-4b2f-a346-bdb3a1660bce",
     "file": "Animal Crossing/Comrade K.K. (Aircheck).ootrs"
   }
 ]
