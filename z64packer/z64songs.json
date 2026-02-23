@@ -577,7 +577,7 @@
       "Tolin"
     ],
     "isDMCACritical": false,
-    "type": "",
+    "type": "bgm",
     "categories": [
       "GanondorfBattle",
       "GanonBattle",
@@ -590,6 +590,7 @@
     "usesCustomBank": true,
     "usesCustomSamples": false,
     "file": "Elvis Crespo/Suavemente 2 (MIDI version).ootrs",
-    "preview": "https://www.youtube.com/watch?v=EGDR4AOIp3g"
+    "preview": "https://www.youtube.com/watch?v=EGDR4AOIp3g",
+    "usesFormmask": false
   }
 ]
