@@ -79,7 +79,16 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "98e79f1f-51e1-448d-8c15-c7dcbe9c9548",
-    "file": "A Hat in Time/City of Calcite.mmrs"
+    "file": "A Hat in Time/City of Calcite.mmrs",
+    "lastUpdateDate": "2026-02-23T01:53:33.757Z",
+    "composers": [
+      "Pascal Michael Stiefel"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "isDMCACritical": false,
+    "preview": "https://www.youtube.com/watch?v=F7TggRdIDqA"
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
