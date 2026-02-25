@@ -15,4 +15,6 @@ jobs:
           client_secrets: ${{ secrets.YOUTUBE_CLIENT_SECRETS }}
           request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
           
-      - run: youtubeuploader -filename "previews/Elden Ring/Godskin Apostles (Phase 1).mp3"
+      - run: |
+         ls
+         youtubeuploader -filename "./previews/Elden Ring/Godskin Apostles (Phase 1).mp3"
