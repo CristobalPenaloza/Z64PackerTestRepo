@@ -13,6 +13,10 @@ jobs:
         uses: AnimMouse/setup-youtubeuploader@v2
 
       - uses: actions/checkout@v3
+
+      - run: echo "$request_token" | base64 -d
+        env:
+          request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
           
       - run: youtubeuploader -debug -secrets <(echo "$client_secrets" | base64 -d) -cache <(echo "$request_token" | base64 -d) -filename "./previews/Elden Ring/Godskin Apostles (Phase 1).mp3"
         env:
