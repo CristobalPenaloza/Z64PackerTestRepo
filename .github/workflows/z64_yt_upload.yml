@@ -17,19 +17,23 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
+      #- name: Set up Python ${{ matrix.python-version }}
+      #  uses: actions/setup-python@v4
+      #  with:
+      #    python-version: "3.x"
 
-      - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v4
-        with:
-          path: "z64packer/z64_yt_upload_python_requirements.txt"
+      #- name: Install Python dependencies
+      #  uses: py-actions/py-dependency-install@v4
+      #  with:
+      #    path: "z64packer/z64_yt_upload_python_requirements.txt"
 
       - name: Create and upload YouTube video
         run: |
           cd z64packer
-          python z64_video_maker.py --background_image "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM_Japas's_Room.png/1200px-MM_Japas's_Room.png"
           youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json" -metaJSONout "metadata-out.json"
           cat metadata-out.json
+        #run: |
+        #  cd z64packer
+        #  python z64_video_maker.py --background_image "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM_Japas's_Room.png/1200px-MM_Japas's_Room.png"
+        #  youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json" -metaJSONout "metadata-out.json"
+        #  cat metadata-out.json
