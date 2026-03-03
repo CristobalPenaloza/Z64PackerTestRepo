@@ -25,7 +25,7 @@ jobs:
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v4
         with:
-          path: "z64_yt_upload_python_requirements.txt"
+          path: "z64packer/z64_yt_upload_python_requirements.txt"
 
       - name: Create YouTube video
         run: |
