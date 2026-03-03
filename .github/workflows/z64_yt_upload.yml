@@ -30,10 +30,9 @@ jobs:
       - name: Create and upload YouTube video
         run: |
           cd z64packer
-          youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json" -metaJSONout "metadata-out.json"
-          cat metadata-out.json
+          python z64_video_maker.py --mode "REGISTER_VIDEO"
         #run: |
         #  cd z64packer
         #  python z64_video_maker.py --background_image "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM_Japas's_Room.png/1200px-MM_Japas's_Room.png"
-        #  youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json" -metaJSONout "metadata-out.json"
-        #  cat metadata-out.json
+        #  youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json" -metaJSONout "metadata_out.json"
+        #  python z64_video_maker.py --mode "REGISTER_VIDEO"
