@@ -9,18 +9,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup YouTube Uploader
-        uses: AnimMouse/setup-youtubeuploader@v2
-        with:
-          client_secrets: ${{ secrets.YOUTUBE_CLIENT_SECRETS }}
-          request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
+      #- name: Setup YouTube Uploader
+      #  uses: AnimMouse/setup-youtubeuploader@v2
+      #  with:
+      #    client_secrets: ${{ secrets.YOUTUBE_CLIENT_SECRETS }}
+      #    request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
 
       - uses: actions/checkout@v3
 
-      #- name: Set up Python ${{ matrix.python-version }}
-      #  uses: actions/setup-python@v4
-      #  with:
-      #    python-version: "3.x"
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
 
       #- name: Install Python dependencies
       #  uses: py-actions/py-dependency-install@v4
