@@ -1,5 +1,7 @@
 soundfile
 pyloudnorm
 numpy
+requests
+textwrap
 pillow
 moviepy
