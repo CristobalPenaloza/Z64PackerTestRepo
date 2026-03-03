@@ -22,10 +22,10 @@ jobs:
         with:
           python-version: "3.x"
 
-      #- name: Install Python dependencies
-      #  uses: py-actions/py-dependency-install@v4
-      #  with:
-      #    path: "z64packer/z64_yt_upload_python_requirements.txt"
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          path: "z64packer/z64_yt_upload_python_requirements.txt"
 
       - name: Create and upload YouTube video
         run: |
