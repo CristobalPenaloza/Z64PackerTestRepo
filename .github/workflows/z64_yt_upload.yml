@@ -9,18 +9,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup YouTube Uploader
-        if: false
-        uses: AnimMouse/setup-youtubeuploader@v2
-        with:
-          client_secrets: ${{ secrets.YOUTUBE_CLIENT_SECRETS }}
-          request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
+      #- name: Setup YouTube Uploader
+      #  uses: AnimMouse/setup-youtubeuploader@v2
+      #  with:
+      #    client_secrets: ${{ secrets.YOUTUBE_CLIENT_SECRETS }}
+      #    request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
 
       - uses: actions/checkout@v3
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      #- name: Install Python dependencies
+      #  uses: py-actions/py-dependency-install@v4
+      #  with:
+      #    path: "z64packer/z64_python_requirements.txt"
 
       - name: Create YouTube video
         run: |
           cd z64packer
-          z64_video_maker.py --background_image "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM_Japas's_Room.png/1200px-MM_Japas's_Room.png"
+          python z64_video_maker.py --background_image "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM_Japas's_Room.png/1200px-MM_Japas's_Room.png"
           
-      - run: youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json"
+      #- run: youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json"
