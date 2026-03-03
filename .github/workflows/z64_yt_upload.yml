@@ -10,11 +10,17 @@ jobs:
 
     steps:
       - name: Setup YouTube Uploader
+        if: false
         uses: AnimMouse/setup-youtubeuploader@v2
         with:
           client_secrets: ${{ secrets.YOUTUBE_CLIENT_SECRETS }}
           request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
 
       - uses: actions/checkout@v3
+
+      - name: Create YouTube video
+        run: |
+          cd z64packer
+          z64_video_maker.py --background_image "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM_Japas's_Room.png/1200px-MM_Japas's_Room.png"
           
-      - run: youtubeuploader -debug -filename "./previews/Elden Ring/Godskin Apostles (Phase 1).mp3"
+      - run: youtubeuploader -debug -filename "result.mp4" -metaJSON "metadata.json"
