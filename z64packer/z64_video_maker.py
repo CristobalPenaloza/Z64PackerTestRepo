@@ -66,7 +66,7 @@ def make_video(background_image):
                 subtitle = song["game"]
                 composers = ", ".join(song.get("composers", [])) or "-"
                 converters = ", ".join(song.get("converters", [])) or "-"
-                format = f"{("Majora's Mask" if song["file"].endswith(".mmrs") else "Ocarina of Time")} soundfont{(" with custom bank" if song["usesCustomBank"] == "true" else "")}{(" and samples" if song["usesCustomSamples"] == "true" else "")}."
+                format = f"{("Majora's Mask" if song["file"].endswith(".mmrs") else "Ocarina of Time")} soundfont{(" with custom bank" if song["usesCustomBank"] == "true" else "")}{(" and samples" if song["usesCustomSamples"] == "true" else "")}"
                 
                 # Now let's create the video
                 print("Creating video file...")
@@ -223,13 +223,56 @@ def normalize_youtube_audio(path):
     return "vid_audio.mp3"
 
 
-def register_video(song_guid, yt_link):
-    if not yt_link:
-        raise Exception("Missing YT link: To register a video, is necessary to provide it's YT link")
-    if not song_guid:
-        raise Exception("Missing song GUID: To register a video, is necessary to provide the song GUID")
-    
+def register_video():
+    # Check if we are not missing the necessary files
+    properties_path = "z64musicpacker.properties"
+    metadata_out_path = "metadata_out.json"
+    song_uuid_path = "song.txt"
 
+    if not os.path.exists(properties_path):
+        raise Exception('Missing z64musicpacker.properties file: This is not an Z64 repository or the script is not beign executed in the z64packer folder!')
+    if not os.path.exists(metadata_out_path) or not os.path.exists(song_uuid_path):
+        raise Exception('Missing data files: Run MAKE_VIDEO before trying to register!')
+
+    # First, read if we have a YT link and a UUID to register!
+    with open(metadata_out_path, encoding='ISO-8859-1') as meta_out_file:
+        meta_out = json.load(meta_out_file)
+
+        with open(song_uuid_path, encoding='ISO-8859-1') as song_uuid_file:
+            song_uuid = song_uuid_file.read()
+            yt_link = f"https://www.youtube.com/watch?v={meta_out["id"]}"
+            print(f"Registering video {yt_link} for song {song_uuid}")
+
+            with open("z64musicpacker.properties", encoding='ISO-8859-1') as propertiesFile:
+                properties = json.load(propertiesFile)
+
+                # Now that we have our song ready, open the database
+                with open('z64songs.json', 'r+', encoding='ISO-8859-1') as databaseFile:
+                    database = json.load(databaseFile)
+
+                    # Find the song by uuid
+                    i = [index for index, song in enumerate(database) if song["uuid"] == song_uuid][0]
+                    preview_path = database[i]["preview"]
+
+                    # Delete the current preview
+                    if not preview_path.startswith("https://"):
+                        full_preview_path = "../" + properties["previews"] + preview_path
+                        if os.path.exists(full_preview_path):
+                            #os.remove(full_preview_path) TODO: <-- REACTIVATE ON FINAL BUILD!!!
+                            print(f"File {full_preview_path} deleted successfully!")
+
+                    # Set the new preview
+                    print("Setting new preview... " + yt_link)
+                    database[i]["preview"] = yt_link
+
+                    # Write changes to database
+                    databaseFile.seek(0)
+                    json.dump(database, databaseFile, indent=2)
+                    databaseFile.truncate()
+
+    print("Video registered successfully!")
+    
+    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -237,12 +280,10 @@ if __name__ == '__main__':
     )
     parser.add_argument("--mode", choices=["MAKE_VIDEO", "REGISTER_VIDEO"], default="MAKE_VIDEO", help="Defines the mode the script will work.")
     parser.add_argument("--background_image", type=str, help="Path or url to an image to use as a background for the video.")
-    parser.add_argument("--yt_link", type=str, help="Link for the YT video to register.")
     args = parser.parse_args()
 
     mode = args.mode
     background_image = args.background_image
-    yt_link = args.yt_link
 
     if mode == "MAKE_VIDEO": make_video(background_image)
-    else: register_video(yt_link)
+    else: register_video()
