@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: CristobalPenaloza/z64packer-yt-upload@a0ad23b9701ce9d0c722db651683c9377a234f42
+      - uses: CristobalPenaloza/z64packer-yt-upload@1e218fd2c18603717a619f80db4cdc89981085a6
         with:
           yt_client_secrets: ${{ secrets.YOUTUBE_CLIENT_SECRETS }}
           yt_request_token: ${{ secrets.YOUTUBE_REQUEST_TOKEN }}
