@@ -622,5 +622,29 @@
     "file": "Pokémon Test/UTF-8 Test in Fílénámé.mmrs",
     "preview": "Pokémon Test/UTF-8 Test in Fílénámé.ogg"
   },
-  "__SENTINEL__: ONLY ADD ENTRIES ABOVE THIS LINE TO PREVENT MERGE CONFLICTS. Oh also, don't delete it please thank you <3"
+  "__SENTINEL__: ONLY ADD ENTRIES ABOVE THIS LINE TO PREVENT MERGE CONFLICTS. Oh also, don't delete it please thank you <3",
+  {
+    "uuid": "ef2df513-f6ef-4515-bae5-522ed361ca86",
+    "creationDate": "2026-03-13T22:22:17.502Z",
+    "game": "NieR: Automata",
+    "song": "Aumesement Park",
+    "composers": [
+      "IDK"
+    ],
+    "converters": [
+      "Yaruzu"
+    ],
+    "isDMCACritical": false,
+    "type": "bgm",
+    "categories": [
+      "0",
+      "1",
+      "106"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "usesFormmask": false,
+    "file": "NieR Automata/Aumesement Park.mmrs",
+    "preview": "NieR Automata/Aumesement Park.mp3"
+  }
 ]
