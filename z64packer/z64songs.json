@@ -622,7 +622,6 @@
     "file": "Pokémon Test/UTF-8 Test in Fílénámé.mmrs",
     "preview": "Pokémon Test/UTF-8 Test in Fílénámé.ogg"
   },
-  "__SENTINEL__: ONLY ADD ENTRIES ABOVE THIS LINE TO PREVENT MERGE CONFLICTS. Oh also, don't delete it please thank you <3",
   {
     "uuid": "ef2df513-f6ef-4515-bae5-522ed361ca86",
     "creationDate": "2026-03-13T22:22:17.502Z",
@@ -646,5 +645,30 @@
     "usesFormmask": false,
     "file": "NieR Automata/Aumesement Park.mmrs",
     "preview": "NieR Automata/Aumesement Park.mp3"
-  }
+  },
+  {
+    "uuid": "d359528a-131f-4ac3-a021-9f34bcb7b7dd",
+    "creationDate": "2026-03-14T01:41:08.799Z",
+    "game": "MEGAMAN",
+    "song": "Museum",
+    "composers": [
+      "IDK"
+    ],
+    "converters": [
+      "Yaruzu"
+    ],
+    "isDMCACritical": false,
+    "type": "bgm",
+    "categories": [
+      "0",
+      "1",
+      "3"
+    ],
+    "usesCustomBank": true,
+    "usesCustomSamples": false,
+    "usesFormmask": false,
+    "file": "MEGAMAN/Museum.mmrs",
+    "preview": "MEGAMAN/Museum.mp3"
+  },
+  "__SENTINEL__: ONLY ADD ENTRIES ABOVE THIS LINE TO PREVENT MERGE CONFLICTS. Oh also, don't delete it please thank you <3"
 ]
