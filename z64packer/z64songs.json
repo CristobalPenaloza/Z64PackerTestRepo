@@ -49,9 +49,9 @@
     "file": "A Hat in Time/Clocktowers Beneath the Sky.ootrs"
   },
   {
-    "game": "A Hat in Timesss",
-    "song": "Deathwish",
-    "type": "bgm",
+    "game": "A Hat in Time",
+    "song": "Death Wish",
+    "type": "bgm\r",
     "categories": [
       "CastleEscape",
       "Battle",
@@ -64,8 +64,8 @@
       "Fight"
     ],
     "uuid": "b38a0577-02dd-4e9d-82db-ba9e475f2948",
-    "file": "A Hat in Time/Deathwish.ootrs",
-    "lastUpdateDate": "2026-09-05T20:20:07.123Z",
+    "file": "A Hat in Time/Death Wish.ootrs",
+    "lastUpdateDate": "2026-09-05T20:22:49.497Z",
     "composers": [
       "Pascal Michael Stiefel"
     ],
