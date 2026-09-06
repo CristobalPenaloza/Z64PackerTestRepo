@@ -210,7 +210,7 @@
     "file": "Animal Crossing New Horizons/6PM.ootrs"
   },
   {
-    "game": "Elvis Crespo",
+    "game": "Elvis Crespoooooo",
     "song": "Suavemente (MIDI version)",
     "type": "bgm",
     "categories": [
@@ -223,10 +223,17 @@
       "Fight"
     ],
     "usesCustomBank": true,
-    "usesCustomSamples": false,
-    "usesFormmask": false,
     "uuid": "cfe893b4-fb07-4c9e-a60d-3bd3b64a4fb4",
-    "file": "Elvis Crespo/Suavemente (MIDI version).ootrs"
+    "file": "Elvis Crespo/Suavemente (MIDI version).ootrs",
+    "lastUpdateDate": "2026-09-06T01:46:32.877Z",
+    "composers": [
+      "Elvis Crespo"
+    ],
+    "converters": [
+      "Tolin"
+    ],
+    "lufs": "-50",
+    "preview": "https://youtube.com"
   },
   {
     "game": "testtest",
