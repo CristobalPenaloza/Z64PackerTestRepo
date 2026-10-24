@@ -12,10 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: CristobalPenaloza/z64packer-create-assets@v1
+      - uses: CristobalPenaloza/z64packer-create-assets@e35ebd094c55e1bab653bbe3677ace62f4e7f0b4
         with:
           name: 'Z64 Packer Test Repo'
           description: 'A test repo for uploading Zelda 64 files'
           binaries-path: 'Music/'
           previews-path: 'previews/'
           avatar-url: 'https://avatars.githubusercontent.com/u/41912913?s=96&v=4'
+          store-zip-on-secondary-branch: true
