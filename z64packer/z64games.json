@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "game": "20th Century Fox",
     "series": "",
@@ -118,6 +118,12 @@
   },
   {
     "game": "Pokémon Test"
+  },
+  {
+    "game": "NieR: Automata"
+  },
+  {
+    "game": "MEGAMAN"
   },
   "__SENTINEL__: ONLY ADD ENTRIES ABOVE THIS LINE TO PREVENT MERGE CONFLICTS. Oh also, don't delete it please thank you <3"
 ]

@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "game": "20th Century Fox",
     "song": "Intro",
@@ -19,7 +19,10 @@
     "usesFormmask": false,
     "uuid": "475ec835-d0d1-4d15-8c87-285312647a6d",
     "file": "20th Century Fox/Intro.ootrs",
-    "preview": "https://www.youtube.com/watch?v=V1fWr_G6IAc"
+    "preview": "https://www.youtube.com/watch?v=V1fWr_G6IAc",
+    "isCrossGame": false,
+    "hash": "9a9b7def1db4114c38054cde182c3048",
+    "creationDate": "2026-10-24T16:28:30.559Z"
   },
   {
     "game": "A Hat in Time",
@@ -46,34 +49,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "b294436b-03bf-450d-8f86-0292ad4090df",
-    "file": "A Hat in Time/Clocktowers Beneath the Sky.ootrs"
-  },
-  {
-    "game": "A Hat in Time",
-    "song": "Death Wish",
-    "type": "bgm\r",
-    "categories": [
-      "CastleEscape",
-      "Battle",
-      "MinibossBattle",
-      "BossBattle",
-      "FireBoss",
-      "SmallFight",
-      "BossFight",
-      "BigFight",
-      "Fight"
-    ],
-    "uuid": "b38a0577-02dd-4e9d-82db-ba9e475f2948",
-    "file": "A Hat in Time/Death Wish.ootrs",
-    "lastUpdateDate": "2026-09-05T20:22:49.497Z",
-    "composers": [
-      "Pascal Michael Stiefel"
-    ],
-    "converters": [
-      "Tolin"
-    ],
-    "preview": "https://www.youtube.com/watch?v=TljApMdkWdo",
-    "lufs": "-50"
+    "file": "A Hat in Time/Clocktowers Beneath the Sky.ootrs",
+    "isCrossGame": false,
+    "hash": "67648cf2602df16464d398d3fb5a4577",
+    "creationDate": "2026-10-24T16:28:30.566Z"
   },
   {
     "game": "A Hat in Time",
@@ -95,7 +74,10 @@
       "Tolin"
     ],
     "isDMCACritical": false,
-    "preview": "https://www.youtube.com/watch?v=F7TggRdIDqA"
+    "preview": "https://www.youtube.com/watch?v=F7TggRdIDqA",
+    "isCrossGame": true,
+    "hash": "ac0fbdace3dd7d814bb78b6fc3eb114c",
+    "creationDate": "2026-10-24T16:28:30.565Z"
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -116,7 +98,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "2cacfccd-0e29-4151-ba66-6bd2aec56e0e",
-    "file": "The Legend of Zelda Breath of the Wild/Mipha's Theme.ootrs"
+    "file": "The Legend of Zelda Breath of the Wild/Mipha's Theme.ootrs",
+    "isCrossGame": false,
+    "hash": "cdd2813fbe0c7aff4e76ac5221143569",
+    "creationDate": "2026-10-24T16:28:30.557Z"
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -151,7 +136,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "4abf7e64-f24c-4ef5-a9a2-55b5ef1945a0",
-    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.ootrs"
+    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.ootrs",
+    "isCrossGame": false,
+    "hash": "eb2abe781c59e983c50b9dc57b38ac83",
+    "creationDate": "2026-10-24T16:28:30.557Z"
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -162,7 +150,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "72ded7ea-2161-4494-83e3-d8201efef9ff",
-    "file": "The Legend of Zelda Breath of the Wild/Sit by the campfire.ootrs"
+    "file": "The Legend of Zelda Breath of the Wild/Sit by the campfire.ootrs",
+    "isCrossGame": false,
+    "hash": "da5d9f2ee3611576b5af998c3a57b23b",
+    "creationDate": "2026-10-24T16:28:30.556Z"
   },
   {
     "game": "The Legend of Zelda Breath of the Wild",
@@ -176,7 +167,10 @@
     "usesCustomSamples": true,
     "usesFormmask": false,
     "uuid": "c8088146-c19d-4a78-acac-28f2058f8951",
-    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs"
+    "file": "The Legend of Zelda Breath of the Wild/Hyrule Castle.mmrs",
+    "isCrossGame": false,
+    "hash": "78b4f30e75fb2255f2c8a618e415a31b",
+    "creationDate": "2026-10-24T16:28:30.557Z"
   },
   {
     "game": "Animal Crossing New Horizons",
@@ -207,10 +201,13 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "2be07745-5aad-4252-b351-cf5516a620f7",
-    "file": "Animal Crossing New Horizons/6PM.ootrs"
+    "file": "Animal Crossing New Horizons/6PM.ootrs",
+    "isCrossGame": false,
+    "hash": "619fdd027e85e933fced2c5a887564b9",
+    "creationDate": "2026-10-24T16:28:30.555Z"
   },
   {
-    "game": "Elvis Crespoooooo",
+    "game": "Elvis Crespo",
     "song": "Suavemente (MIDI version)",
     "type": "bgm",
     "categories": [
@@ -233,7 +230,12 @@
       "Tolin"
     ],
     "lufs": "-50",
-    "preview": "https://youtube.com"
+    "preview": "https://youtube.com",
+    "usesCustomSamples": false,
+    "usesFormmask": false,
+    "isCrossGame": false,
+    "hash": "5f0228f1e4bd0f3c913a799c406aea8b",
+    "creationDate": "2026-10-24T16:28:30.574Z"
   },
   {
     "game": "testtest",
@@ -268,7 +270,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "2847fae7-6984-40d0-8cb5-0bf4581a6738",
-    "file": "testtest/test1.ootrs"
+    "file": "testtest/test1.ootrs",
+    "isCrossGame": false,
+    "hash": "eb2abe781c59e983c50b9dc57b38ac83",
+    "creationDate": "2026-10-24T16:28:30.569Z"
   },
   {
     "game": "PlayStation 2",
@@ -289,7 +294,11 @@
     "usesCustomSamples": true,
     "usesFormmask": false,
     "uuid": "f5d97605-906b-46ab-a2ff-5e4ad4d8c662",
-    "file": "PlayStation 2/Bootup.ootrs"
+    "file": "PlayStation 2/Bootup.ootrs",
+    "isCrossGame": false,
+    "hash": "c92df9a34510cc723ada94fd66218ad9",
+    "creationDate": "2026-10-24T16:28:30.571Z",
+    "preview": "PlayStation 2/Bootup.mp3"
   },
   {
     "game": "Meme",
@@ -303,7 +312,10 @@
     "usesCustomSamples": true,
     "usesFormmask": false,
     "uuid": "5f9dc9dc-20d2-417a-8f71-6e9e81885ed7",
-    "file": "Meme/BIRDUP.mmrs"
+    "file": "Meme/BIRDUP.mmrs",
+    "isCrossGame": false,
+    "hash": "78b4f30e75fb2255f2c8a618e415a31b",
+    "creationDate": "2026-10-24T16:28:30.567Z"
   },
   {
     "game": "Banjo-Kazooie",
@@ -328,7 +340,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "20f204ce-b40a-4935-bfda-0248bbf77b16",
-    "file": "Banjo-Kazooie/Bubblegoop Swamp.ootrs"
+    "file": "Banjo-Kazooie/Bubblegoop Swamp.ootrs",
+    "isCrossGame": false,
+    "hash": "779e9537f9ab95c0ae3f7a018e860afa",
+    "creationDate": "2026-10-24T16:28:30.562Z"
   },
   {
     "game": "Banjo-Kazooie",
@@ -348,12 +363,15 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "059f5937-131c-4115-bfd7-c69a8dd1dad5",
-    "file": "Banjo-Kazooie/Battle With Gruntilda.ootrs"
+    "file": "Banjo-Kazooie/Battle With Gruntilda.ootrs",
+    "isCrossGame": false,
+    "hash": "65e9ced460d46aba45268032c1f0d499",
+    "creationDate": "2026-10-24T16:28:30.561Z"
   },
   {
     "game": "Mundial Ronaldinho Soccer 64",
     "song": "Intro",
-    "type": "bgm",
+    "type": "fanfare",
     "categories": [
       "9",
       "121"
@@ -362,7 +380,10 @@
     "usesCustomSamples": true,
     "usesFormmask": false,
     "uuid": "a4b3a238-81aa-4eb5-bc10-b14212af9a0e",
-    "file": "Mundial Ronaldinho Soccer 64/Intro.mmrs"
+    "file": "Mundial Ronaldinho Soccer 64/Intro.mmrs",
+    "isCrossGame": false,
+    "hash": "23218a0402e75a545ed8062d99fd3f44",
+    "creationDate": "2026-10-24T16:28:30.553Z"
   },
   {
     "game": "Hell's Kitchen",
@@ -380,7 +401,11 @@
     "usesCustomSamples": true,
     "usesFormmask": false,
     "uuid": "3a08c9f1-4386-4b74-9135-ad8c6dde60ec",
-    "file": "Hell's Kitchen/Waterphone.ootrs"
+    "file": "Hell's Kitchen/Waterphone.ootrs",
+    "isCrossGame": false,
+    "hash": "eee1b58ed372c77bdafb3bbfafec87e8",
+    "creationDate": "2026-10-24T16:28:30.575Z",
+    "preview": "Hell's Kitchen/Waterphone.mp3"
   },
   {
     "game": "Elden Ring",
@@ -404,7 +429,10 @@
     "usesFormmask": false,
     "uuid": "ee7ac7ab-b20c-4aa9-bb7f-78caf875acaa",
     "file": "Elden Ring/Godskin Apostles (Phase 1).ootrs",
-    "preview": "https://www.youtube.com/watch?v=4GKgWW_YsPQ"
+    "preview": "https://www.youtube.com/watch?v=4GKgWW_YsPQ",
+    "isCrossGame": false,
+    "hash": "7ec08ad90155e3991d296cd66b6ba67a",
+    "creationDate": "2026-10-24T16:28:30.567Z"
   },
   {
     "game": "Dragon Quest III",
@@ -420,7 +448,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "64d6fa32-540e-44fc-b860-88d533118d9b",
-    "file": "Dragon Quest III/Adventure.ootrs"
+    "file": "Dragon Quest III/Adventure.ootrs",
+    "isCrossGame": false,
+    "hash": "2e0c6479f1227adcd57c74c5e9951dcf",
+    "creationDate": "2026-10-24T16:28:30.574Z"
   },
   {
     "game": "Monster Hunter Generations Ultimate",
@@ -449,7 +480,11 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "162da2fc-1d1e-4a47-8e83-a8532a6e68ee",
-    "file": "Monster Hunter Generations Ultimate/Valstrax.ootrs"
+    "file": "Monster Hunter Generations Ultimate/Valstrax.ootrs",
+    "isCrossGame": false,
+    "hash": "47b07b4ec3e91e16de4b875d3681ab04",
+    "creationDate": "2026-10-24T16:28:30.569Z",
+    "preview": "Monster Hunter Generations Ultimate/Valstrax.mp3"
   },
   {
     "game": "The Sims",
@@ -467,7 +502,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "fdb9fb47-d8b7-439b-8f80-8d6a9a3338ac",
-    "file": "The Sims/Mall Rat.ootrs"
+    "file": "The Sims/Mall Rat.ootrs",
+    "isCrossGame": false,
+    "hash": "4c07e484ebb5adf1b600fb1e5ddee9af",
+    "creationDate": "2026-10-24T16:28:30.560Z"
   },
   {
     "game": "Bloodborne",
@@ -490,7 +528,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "45645860-1885-4119-966f-1cce431cd2cf",
-    "file": "Bloodborne/Ludwig The Holy Blade.ootrs"
+    "file": "Bloodborne/Ludwig The Holy Blade.ootrs",
+    "isCrossGame": false,
+    "hash": "a695b420678ce131174075d4651700e2",
+    "creationDate": "2026-10-24T16:28:30.570Z"
   },
   {
     "game": "Bloodborne",
@@ -513,7 +554,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "a4caa073-4522-4e39-8f45-20c35527ded5",
-    "file": "Bloodborne/Cleric Beast.ootrs"
+    "file": "Bloodborne/Cleric Beast.ootrs",
+    "isCrossGame": false,
+    "hash": "1959f089d06946f0ad9e5b886c072dac",
+    "creationDate": "2026-10-24T16:28:30.570Z"
   },
   {
     "game": "Mario Kart 8 Deluxe",
@@ -532,7 +576,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "9816cdfa-e1bd-48c0-bd20-776b84b495a3",
-    "file": "Mario Kart 8 Deluxe/Choco Mountains.ootrs"
+    "file": "Mario Kart 8 Deluxe/Choco Mountains.ootrs",
+    "isCrossGame": false,
+    "hash": "468d987c249f978550215eb1c6944114",
+    "creationDate": "2026-10-24T16:28:30.559Z"
   },
   {
     "game": "Among Us",
@@ -551,7 +598,10 @@
     "usesFormmask": false,
     "uuid": "b55fd01a-08f6-48de-a5c1-c2c0561dc758",
     "file": "Among Us/Role Reveal.ootrs",
-    "preview": "https://www.youtube.com/watch?v=viSWBuUN7d0"
+    "preview": "https://www.youtube.com/watch?v=viSWBuUN7d0",
+    "isCrossGame": false,
+    "hash": "7ecaa56e2967947dad5570ee085ce9d7",
+    "creationDate": "2026-10-24T16:28:30.563Z"
   },
   {
     "game": "Animal Crossing",
@@ -570,7 +620,10 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "uuid": "6eb4df51-c57b-416b-9b98-d92d043d1746",
-    "file": "Animal Crossing/Comrade K.K. (Aircheck).ootrs"
+    "file": "Animal Crossing/Comrade K.K. (Aircheck).ootrs",
+    "isCrossGame": false,
+    "hash": "e65735ebbd3d9babed52be31b232a7d0",
+    "creationDate": "2026-10-24T16:28:30.556Z"
   },
   {
     "uuid": "f63ffcf1-25d7-49ee-b333-af0df3170c8f",
@@ -598,7 +651,9 @@
     "usesCustomSamples": false,
     "file": "Elvis Crespo/Suavemente 2 (MIDI version).ootrs",
     "preview": "https://www.youtube.com/watch?v=EGDR4AOIp3g",
-    "usesFormmask": false
+    "usesFormmask": false,
+    "isCrossGame": false,
+    "hash": "5f0228f1e4bd0f3c913a799c406aea8b"
   },
   {
     "uuid": "ea376065-ad78-41d7-a6ff-4cb638984ab6",
@@ -624,7 +679,9 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "file": "Pokémon Test/UTF-8 Test in Fílénámé.mmrs",
-    "preview": "Pokémon Test/UTF-8 Test in Fílénámé.ogg"
+    "preview": "Pokémon Test/UTF-8 Test in Fílénámé.ogg",
+    "isCrossGame": false,
+    "hash": "ad21a026bddef0e1f07d1d2df2801eca"
   },
   {
     "uuid": "ef2df513-f6ef-4515-bae5-522ed361ca86",
@@ -648,7 +705,9 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "file": "NieR Automata/Aumesement Park.mmrs",
-    "preview": "NieR Automata/Aumesement Park.mp3"
+    "preview": "NieR Automata/Aumesement Park.mp3",
+    "isCrossGame": true,
+    "hash": "4531ffad75be2d6a506e9235a47f6e2f"
   },
   {
     "uuid": "d359528a-131f-4ac3-a021-9f34bcb7b7dd",
@@ -672,7 +731,34 @@
     "usesCustomSamples": false,
     "usesFormmask": false,
     "file": "MEGAMAN/Museum.mmrs",
-    "preview": "MEGAMAN/Museum.mp3"
+    "preview": "MEGAMAN/Museum.mp3",
+    "isCrossGame": false,
+    "hash": "3879374b09df9c9e8b6f95f411a4d058"
+  },
+  {
+    "uuid": "93f7b03b-e482-4884-9e17-f5c968e8d8a7",
+    "creationDate": "2026-10-24T16:28:30.565Z",
+    "game": "A Hat in Time",
+    "song": "Deathwish",
+    "type": "bgm",
+    "categories": [
+      "CastleEscape",
+      "Battle",
+      "MinibossBattle",
+      "BossBattle",
+      "FireBoss",
+      "SmallFight",
+      "BossFight",
+      "BigFight",
+      "Fight"
+    ],
+    "usesCustomBank": false,
+    "usesCustomSamples": false,
+    "usesFormmask": false,
+    "isCrossGame": false,
+    "file": "A Hat in Time/Deathwish.ootrs",
+    "preview": "",
+    "hash": "36e060584ee476254ec48247d520616c"
   },
   "__SENTINEL__: ONLY ADD ENTRIES ABOVE THIS LINE TO PREVENT MERGE CONFLICTS. Oh also, don't delete it please thank you <3"
 ]
